@@ -1,0 +1,32 @@
+Basics
+------
+- Objects are collections of key-value pairs
+    - These are referred to as properties and their corresponding assigned values
+
+    - They can also stored functions that work with the proeprties
+        - These are referred to as methods
+
+
+- To create an object using the Object Literal Notation / Syntax
+
+   <object_name> = {
+        <property_1>: <value_1>,
+        ...
+        <property_n>: <value_n>,
+        <method_name>: function() {
+            // method code
+        }
+   }
+
+    - Using this syntax is an easy way to create an object
+        - However, as an app becomes more complex it needed a different way of creating
+
+
+- Object-oriented programming (OOP) is a style of programming
+    - Wherein a program is a collection of objects
+    - These objects "talk" to each other to perform some functionality
+
+
+- Difference between a function and a method
+    - Function is a piece of code that performs a specific task
+    - Method is a basically function that is part of (and stored within) an object

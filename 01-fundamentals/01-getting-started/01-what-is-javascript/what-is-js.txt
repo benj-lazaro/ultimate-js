@@ -1,0 +1,41 @@
+What is JavaScript
+------------------
+- Currently, one of the most popular & widely used programming languages in the world
+
+    - It is used to build
+        - Interactive web pages
+        - Full-brown web or mobile applications
+        - Real-time networking apps e.g. chat & video services
+        - Command-line tools
+        - Games
+
+    - It runs on
+        - The browser c/o JavaScript engine
+            - Spidermonkey (Firefox)
+            - V8 (Chrome)
+
+        - Outside the browser c/o Node
+            - Node is a C++ program that includes Google's V8 engine
+
+    - ECMAScript is just a specification
+        - JavaScript is a programming language that confirms to this specification
+        
+        - ECMA is responsible for defining the standards
+            - They are actively taking care of said specification
+
+        - ECMAScript v1 was released in 1997
+            - Since 2015, ECMA has been working on annual releases of a new specification
+            
+            - They released ECMAScript 2015 a.k.a ECMAScript v6 (ES6)
+                - This specification defined many features for JavaScript
+
+
+- Every browser has a JavaScript engine
+    - Launch Chrome browser
+    
+    - Access the Developer Tools (CTRL + SHIFT + I)
+        - Alternatively right-click on the browser window
+        - Select menu context "Inspect"
+
+    - Click the Console tab
+    

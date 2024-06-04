@@ -1,0 +1,32 @@
+Constructor Functions
+---------------------
+- Constructor functions is another pattern of creating objects
+    - It uses Pascal naming convention
+
+    - Instead of returning an object, it initializes an object
+
+    - It employs the keyword "this"
+        - The value of "this" is a reference to object that is executing this piece of code
+
+
+- Objects in JavaScript are dynamic
+    - Meaning that additional properties and/or methods at a later point in time
+
+
+- To create a new object
+    - The keyword "new" followed by the constructor function's name
+        - This creates an empty JavaScript object
+
+    - Through the use of "this" configures the empty object
+        - Based on the defined properties and/or methods in the constructor function
+
+    - Accepts any argument values that may have been passed
+        - Assign the values to the corresponding properties and/or methods
+
+    - Implicitly returns a new object with the passed value(s)
+
+
+- Both the constructor and factory functions are equally good for creating objects
+    - Constructor function pattern is familiar to developers with C# and Java experience
+    - For the uninitiated, the factory function pattern is a good alternative
+    - Pick one pattern and stick to it

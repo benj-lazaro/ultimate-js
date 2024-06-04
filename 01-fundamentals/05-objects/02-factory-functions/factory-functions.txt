@@ -1,0 +1,29 @@
+Factory Functions
+-----------------
+- Creating an object using the Object Literal Notation has its limits
+    - Creating multiple copies of the same object results to code duplication
+    - A bug present in a method will replicate to different places in the code
+    - This can be addressed using a Factory Function
+
+
+- A Factory Function is a function that create multiple objects from a single definition
+    - It defines the object's properties and/or method(s)
+
+    - It can accept argument values
+        - That will be used by the object's properties and/or methods
+
+    - It returns an object with different values assigned to properties or used by its methods
+        - This is done without code duplication
+
+
+- In modern JavaScript
+    - When an object has an identifcal key and value name
+        - Remove the ":" that separates the key and value names
+        - Remove the value name
+        - ONLY keeping the property name
+
+    - Methods are also reduced by
+        - Removing the ":" that separates the key & function body
+        - Removing the "function" keyword
+        - Basically, defining a normal function minus the keyword "function"
+
