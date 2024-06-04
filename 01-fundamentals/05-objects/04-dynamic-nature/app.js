@@ -1,30 +1,23 @@
-// Constructor function demo
+// Dynamic nature of objects
 
-// Creating an object using a factory function
-function createCircle(radius) {
-  return {
-    radius,
-    draw() {
-      console.log("Drawing the circle...");
-    },
-  };
-}
+const circle = {
+  radius: 1,
+};
 
-const newCircle = createCircle(11);
-console.log(`Radius of newCircle: ${newCircle.radius}`);
-newCircle.draw();
+// Add a new property "color" & assign a value
+circle.color = "Yellow";
+console.log(circle);
 
-// Creating an object using a constructor function
-function Circle(radius) {
-  this.radius = radius;
-  this.draw = function () {
-    console.log("Drawing the circle...");
-  };
-}
-const circleOne = new Circle(47);
-console.log(`Radius of circleOne: ${circleOne.radius}`);
-circleOne.draw();
+// Add a new method
+circle.draw = function () {
+  console.log("Drawing the circle...");
+};
+circle.draw();
 
-const circleTwo = new Circle(34);
-console.log(`Radius of circleTwo: ${circleTwo.radius}`);
-circleTwo.draw();
+// Delete a property
+delete circle.color;
+console.log(circle);
+
+// Delete a method
+delete circle.draw;
+console.log(circle);
