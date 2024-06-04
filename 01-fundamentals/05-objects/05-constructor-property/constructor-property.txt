@@ -1,0 +1,31 @@
+Constructure Property
+---------------------
+- Every object in JavaScript has a property called constructor
+    - It simply references to the function that was used to create an object
+
+    - When referenced, it returns the code of the function that was used to create an object
+
+        <object_name>.constructor
+
+
+- Creating an object using the Factory Function pattern, uses the Object Literal Notation
+
+        const circle = createCircle();
+
+    - This is equivalent to:
+        
+        const circle = {};
+
+    - Behind the scenes, the JavaScript Engine calls the built-in constructor function Object()
+    
+        const circle = new Object()
+
+    - Thus returning, the result of
+    
+        Object() { 
+            [native code] 
+        }
+
+    
+- Creating an object using the Constructor Function pattern
+    - It simply returns the content of Construtor Function's code
