@@ -1,0 +1,37 @@
+Functions are Objects
+---------------------
+- In JavaScript, functions are objects
+    - To prove it, refer to the app.js file
+
+    - Another hint, on Visual Studio Code
+        - After typing the function name 
+        - Then followed by a "."
+            - The purple icons refer to methods
+            - The blue icons refer to properties
+
+    - Accessing the "constructor" property
+        - References the function that created the object
+            - A built-in constructor named "Function"
+
+            Function() { [native code] }
+
+    
+
+- The built-in .call() is a method of the Function instance
+    - Calls this function with a given "this" value & arguments provided individually
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+
+
+    - Everytime the "new" operator is used to create an object, internally
+            - The JavaScript Engine creates an empty object
+            - Pass that object as 1st argument to the .call() method
+            - The passed object determines the context/value of "this" 
+
+            - Omitting the "new" operator, JavaScript defaults referring to the global Window object
+
+
+- The built-in .apply() is a method of the Function instance
+    - Calls this function with a given "this" value & arguments provided as an array or array-like object
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+
+    
