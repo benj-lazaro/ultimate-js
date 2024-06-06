@@ -1,0 +1,26 @@
+Value vs Reference Types
+------------------------
+- JavaScript have two (2) categories of types
+    - Value types (i.e. Primitives)
+        - Number
+        - String
+        - Boolean
+        - Symbol (new in ES6)
+        - undefined
+        - null
+
+    - Reference types
+        - Object
+        - Function
+        - Array
+
+
+- A primitive value when copied to another variable
+    - The value is copied to the new variable
+    - It is copied by their value
+
+- A reference value when copied to another variable  
+    - The address of the value in memory is copied to the new variable
+    - It is copied by reference
+    - Changes made in the value will be reflected on the value stored in the new variable
+    
