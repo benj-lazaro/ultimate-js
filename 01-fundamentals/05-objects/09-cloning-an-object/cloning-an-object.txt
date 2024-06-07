@@ -1,0 +1,20 @@
+Cloning an Object
+-----------------
+- Three approaches to clone an existing object
+    - Using for..in loop
+        - The oldest approach
+
+
+    - Using Object.assign() method
+        - It takes one or more source objects
+            - Then copies its properties / methods to the target object
+            - Target object = empty or existing object
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+
+        - It has the advantage of adding new properties / methods to the target object
+
+
+    - Using the spread "..." operator
+        - Modern approach in cloning an object
+        - Copies the properties / methods of the source object to the target object
