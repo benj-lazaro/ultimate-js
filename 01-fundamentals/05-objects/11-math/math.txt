@@ -1,0 +1,28 @@
+Math
+----
+- A built-in namespace object 
+    - It contains static properties & methods for mathematical constants & functions
+    
+    - It works with the Number primitive type
+    - It does NOT work with BigInt
+
+    - It is NOT a constructor
+        - It can NOT be used with the "new" operator
+        - It can NOT invoke the Math object as a function
+
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+
+- Popuplar static methods
+    - Math.random()
+        - Returns a pseudo-random number between 0 and (below) 1
+
+    - Math.round()
+        - Returns the value of the input, rounded to the nearest integer
+
+    - Math.max()
+        - Returns the largest of zero or more numbers
+
+    - Math.min()
+        - Returns the smallest of zero or more numbers
