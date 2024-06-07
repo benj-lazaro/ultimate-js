@@ -1,0 +1,33 @@
+Date
+----
+- A built-in object that represents a single moment in time in a platform-independent format
+    - It encapsulate an integral number that represents milliseconds 
+        - Since the midnight at the beginning of January 1, 1970, UTC (the epoch)
+
+    - It is a constructor function
+    - NOTE: Starting month is represented as 0 (not 1)
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+
+
+- The Date.setFullYear() method
+    - Changes the year, month, and/or day of month for this date according to local time
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear)
+
+
+- The Date.toDateString() method
+    - Returns the "date" portion of the Date as a human-readable string
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toDateString)
+
+
+- The Date.toTimeString() method
+    - Returns the "time" portion of the Date object as a human-readable string
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toTimeString)
+
+
+- The Date.toISOString() method
+    - Returns a string representing the Date object in a simplified format based on ISO 8601
+
+    - This is commonly used by a mobile and/or web application that talks to a backend
+        - The date time format commonly used to transfer date between a client and a server
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString)
