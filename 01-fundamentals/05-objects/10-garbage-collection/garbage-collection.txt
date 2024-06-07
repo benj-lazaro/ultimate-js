@@ -1,0 +1,14 @@
+Garbage Collection
+------------------
+- JavaScript does NOT have a concept of Garbage Collection
+    - The JavaScript Engine automatically allocates memory
+        - When an object is created & initialized
+
+    - When an object is NO longer in use
+        - JavaScript Engine invokes its Garbage Collector
+        - It figures out which variables, constants and/or objects that are NO longer in use
+        - Then deallocates the memory that was allocated earlier
+
+    - Garbage collection runs on some complex algorithm
+        - It runs in the background and based on some complex algorithm
+        - Developer and/or user has NO direct control over it
