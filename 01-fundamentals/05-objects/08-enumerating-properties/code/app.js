@@ -1,41 +1,39 @@
-// Values vs Reference Types demo
+// Enumerating Properties of an Object demo
 
-// Primitive type
-let x = 10;
-let y = x; // The value in variable x is copied by value to variable y
-x = 20;
-
-console.log(`The current value of x is ${x}`);
-console.log(`The current value of y is ${y}`);
-
-let number = 10;
-
-function increase(num) {
-  num++; // Increments the passed (independent copy) argument value
-  console.log(`The value of number inside the function: ${number}`); // Returns 11
-}
-
-increase(number); // Passes the value in number as an argument value
-console.log(`The value of number outside the function: ${number}`); // Returns 10
-
-// Reference type
-let i = {
-  value: 10,
+const circle = {
+  radius: 1,
+  draw() {
+    console.log("Drawing the circle...");
+  },
 };
 
-let j = i; // The address in memory of object i is copied to object j
-i.value = 30;
-
-console.log(`The current value of i is ${i.value}`);
-console.log(`The current value of j is ${j.value}`);
-
-let obj = {
-  value: 10,
-};
-
-function increment(objParam) {
-  objParam.value++; // References to the same object in memory
+// Using the for..in loop
+console.log("Using for..in loop...");
+for (const key in circle) {
+  console.log(`${key}: ${circle[key]}`);
 }
 
-increment(obj);
-console.log(`The current value of obj is ${obj.value}`);
+// Using the for..of loop
+console.log("Using for..of loop with Objects.keys()...");
+for (const key of Object.keys(circle)) {
+  console.log(key);
+}
+
+console.log("Using for..of loop with Objects.values()...");
+for (const value of Object.values(circle)) {
+  console.log(value);
+}
+
+console.log("Using for..of loop with Objects.entries()...");
+for (const entry of Object.entries(circle)) {
+  console.log(entry);
+}
+
+// Using the in operator
+console.log(
+  "Using the 'in' operator to check the existence of an object's key..."
+);
+"radius" in circle ? console.log("yes") : console.log("no");
+"radius" in circle ? console.log("yes") : console.log("no");
+"color" in circle ? console.log("yes") : console.log("no");
+"move" in circle ? console.log("yes") : console.log("no");

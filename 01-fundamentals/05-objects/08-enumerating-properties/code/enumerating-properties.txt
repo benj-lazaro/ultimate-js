@@ -1,2 +1,0 @@
-Enumerating Properties of an Object
------------------------------------

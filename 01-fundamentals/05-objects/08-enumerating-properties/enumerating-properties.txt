@@ -1,0 +1,27 @@
+Enumerating Properties of an Object
+-----------------------------------
+- There are several approaches in enumerating properties of an object
+    - Using the for..in loop (commonly used approach)
+        - Returns the object's properties / methods (keys) as well as its corresponding value
+        
+
+    - Using the for..of loop with Object.keys()
+        - for..of loop ONLY works with iterables (e.g. arrays & maps)
+            - NOT with objects since they are NOT iterable
+
+        - Use Object.keys() method & pass the object as an arugment value
+            - Returns a string array containing the properties / methods ONLY
+
+        - Use Object.values() method & pass the object as an argument value
+            - Returns a string array containing the corresponding values to keys ONLY
+
+
+    - Using the for..of loop with Object.entries()
+        - Returns each of the object's properties & values an an array
+            - 1st element   = property / method
+            - 2nd element   = corresponding value
+        
+
+- To check if a given property or method exists in an object
+    - Use the "in" operator within a conditional statement
+    
