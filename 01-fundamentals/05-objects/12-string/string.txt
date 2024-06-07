@@ -1,0 +1,68 @@
+String
+------
+- The built-in String object is used to represent and manipulate a sequence of characters
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+
+- In JavaScript, there are two (2) kinds of strings:
+    - String Primitive
+    - String Object
+
+- When the dot notation is used on a String Primitive
+    - JavaScript internally wraps it within a String Object
+    - Providing access to the String Object's properties & methods
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#instance_methods)
+
+
+- A String object can ALWAYS be converted into its Primitive counterpart
+    - Using the String.valueOf() method
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf)
+
+
+- Popular String Object's properties & methods`
+    - .length property
+        - Returns the the number of characters of a string; this is a read-only property
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
+
+    - .includes() method
+        - Determines whether the calling string contains searchString
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
+
+    - .startsWith() method
+        - Determines whether the calling string begins with the characters of string searchString
+        - NOTE: searchString is case-sensitive
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
+
+    - .endsWith() method
+        - Determines whether a string ends with the characters of the string searchString
+        - NOTE: searchString is case-sensitive
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith)
+    
+    - .indexOf() method
+        - Returns the index within the calling String object of the first occurrence of searchValue
+        - Returns -1 if not found
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
+    
+    - .replace() method
+        - Used to replace occurrences of searchFor using replaceWith
+        - NOTE: This does NOT MODIFY the original string
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+
+    - .toUpperCase() method
+        - Returns the calling string value converted to uppercase
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+
+    - .toLowerCase() method
+        - Returns the calling string value converted to lowercase
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+
+    - .trim() method
+        - Trims whitespace from the beginning and end of the string
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
+    
+
+- Escape characters
+    - Represent a character that may NOT be able to conviently represented in literal from
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_escape)
+
+    
