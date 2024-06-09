@@ -1,0 +1,16 @@
+Primitive Types
+---------------
+- JavaScript has two (2) categories of type:
+    - Primitive or Value Type
+        - Strings   = sequence of characters
+        - Numbers   = numbers
+        - Boolean   = true or false
+        - undefined = default value of an uninitialized variable
+        - null      = used in clearing the assigned value of a variable
+        - Symbol    = introduced in ES6
+
+    - Reference Type
+        - Arrays
+        - Objects
+        - Maps
+
