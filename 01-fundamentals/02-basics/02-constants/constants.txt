@@ -1,0 +1,9 @@
+Constants
+---------
+- Basically a variable whose assigned value does NOT change
+
+
+- Best practice:
+    - If there is NO need to re-assign a value, use "const" (constant)
+    - Otheriwse, use "let" (variable)
+
