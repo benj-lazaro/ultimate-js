@@ -1,0 +1,29 @@
+Variables
+---------
+- Temporarily stores data in a computer's memory
+    - A variable name's is the name of that location in memory
+    - With the given name, it can read data from the given location in the future
+
+
+- By default, a declared variable in JavaScript
+    - Has the initial value of "undefined"
+
+
+- Variable naming convention
+    - It can NOT be a reserved keyword (e.g. let, const)
+
+    - It should be meaningful and descriptive
+        - It should give a clue on the purpose of the variable
+        - It should convey what kind of data is being stored
+
+    - It can NOT START with a number
+
+    - It can NOT contain whitespace or hypen between words
+        - Use camelcase notation (naming convention)
+
+    - It is case-sensitive
+
+    - Declaring multiple variables can be done in two ways
+        - Declare the variables on single line with each name separated by a comma
+        - Declare each variables on a single line (Modern Best Practice)
+            - Each line terminated with a semi-colon ";"
