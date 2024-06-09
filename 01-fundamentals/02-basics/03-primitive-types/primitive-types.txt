@@ -12,5 +12,5 @@ Primitive Types
     - Reference Type
         - Arrays
         - Objects
-        - Maps
+        - Functions
 
