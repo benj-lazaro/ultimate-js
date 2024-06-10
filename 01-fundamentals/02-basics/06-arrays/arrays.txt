@@ -1,0 +1,27 @@
+Arrays
+------
+- It is an ordered collection of data (either primitive or object)
+    - It can store multiple items under a single variable name
+    - It is a data structure that represents a list of elements / items
+
+    - Arrays are NOT primitives but reference types
+
+    - An array is an object with the following core characteristics
+        - It is resizeable and can contain a mix of different data types
+        - It is NOT an associative array
+        - It is zero-indexed
+        - It can create shallow copies of itself
+
+    - Since an array is an object
+        - It has properties that can be accessed using the dot notation
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+
+- An array is an object
+    - Therefore it has properties that can be accessed using the dot notation
+
+
+- The Array.length property
+    - Returns the number of elements or items currently in the array
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
