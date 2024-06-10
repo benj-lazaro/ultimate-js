@@ -1,0 +1,28 @@
+Functions
+---------
+- Functions is one of the fundamental building blocks in JavaScript
+    - It is basically a set of statements within the body of the function (i.e. within the pair of { })
+        - That performs a task and/or return a value
+
+    - It is a reference type of data (e.g. arrays & objects)
+
+    - A parameter is the variable defined at the time of the function declaration
+        - Whereas the an argument is actual value to be supplied for the parameter
+            - When the function is called
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)
+
+
+Syntax:
+
+function name(param0) {
+  statements
+}
+
+function name(param0, param1) {
+  statements
+}
+
+function name(param0, param1, /* …, */ paramN) {
+  statements
+}
