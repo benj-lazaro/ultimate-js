@@ -1,0 +1,16 @@
+Types of Functions
+------------------
+- The types of a function is to:
+    - Perform a task
+
+    - Calculates (then returns) a value
+        - Utilizes the keyword "return" that
+            - Ends a function's execution
+            - Specifies a value to be returned to the function caller
+            
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
+
+
+- A real-word application is essentially a collection of functions
+    - Working together to provide the functionality of that application
+    
