@@ -1,0 +1,13 @@
+JavaScript Operators
+--------------------
+- JavaScript operators along with variables & constants
+    - Create expressions
+    - These expressions create logic & algorithms
+
+
+- JavaScript have different kinds of operators
+    - Arithmetic
+    - Assignment
+    - Comparison
+    - Logical
+    - Bitwise
