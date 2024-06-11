@@ -1,0 +1,23 @@
+Logical Operators
+-----------------
+- These operators are used to make decision based on multiple conditions
+
+
+- Logical operators are typically used with Boolean values
+    - They return a Boolean value
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#logical_operators)
+
+
+- Logical AND (&&)
+    - Returns true if both operands are true
+    - Otherwise, returns false
+
+
+- Logical OR (||)
+    - Returns true if either of the operands is true
+    - If both operands are false, it returns false
+
+
+- Logical NOT (!)
+    - Returns false if the single operand is true
+    - Returns true if the single operand is false
