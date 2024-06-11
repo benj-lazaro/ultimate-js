@@ -1,0 +1,27 @@
+Arithmetic Operators
+--------------------
+- These are operators used for making calculations
+    - Addition          = +
+    - Subtraction       = -
+    - Multiplication    = *
+    - Division          = /
+    - Remainder/Modulus = %
+    - Exponentiation    = **
+
+    - These arithmetic operators require two operands to produce a new value
+
+
+    - Increment         = ++
+    - Decrement         = --
+
+    - Depending on the location of the operator 
+        - Location being before or after the operand
+        - It will behave differently
+
+        - Placing it at the front of the operand
+            - Ii increments / decrements the value of the operand by 1
+            - Before it is used / referenced on
+
+        - Placing it at the end of the operand
+            - It increments / decrements the value of the operand by 1
+            - After it is used / referenced on
