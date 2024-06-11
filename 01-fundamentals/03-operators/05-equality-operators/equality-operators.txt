@@ -1,0 +1,15 @@
+Equality Operators
+------------------
+- JavaScript has two equality operators
+    - Strict Equality (===)
+        - Evaluates the equality of both operands based on their type AND value
+        - Advised to use as it is more precise and accurate
+
+
+    - Lose Equality (==)
+        - Evaluates the equality of both operands based on their value
+
+        - If the both values do NOT match
+            - Implicity converts the value of the right-hand operand
+            - Then checks if the values are equal
+
