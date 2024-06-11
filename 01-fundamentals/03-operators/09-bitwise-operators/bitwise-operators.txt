@@ -1,0 +1,46 @@
+Bitwise Operators
+-----------------
+- Bitwise operators are often used on the theorhetical side (of Computer Science)
+    - NOT much used on a daily basis
+
+    - They are similar to logical operators BUT work on the individual bits of a value
+
+
+- Bitwise AND (&)
+    - Returns a number or BigInt whose binary representation has a 1 in each bit position
+        - For which the corresponding bits of BOTH operands are 1
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND)
+
+    Syntax:
+
+    x & y
+
+
+- Bitwise OR (|)
+    - Returns an number or BigInt whose binary representation has a 1 in each bit position
+        - For which the corresponding bits of EITHER or BOTH operands are 1
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_OR)
+
+    Syntax:
+
+    x | y
+
+
+- Bitwise NOT (~)
+    - Returns an number or BigInt whose binary representation has a 1 in each bit position
+        - For which the corresponding bit of the operand is 0 and a 0 otherwise
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_NOT)
+
+    Syntax:
+
+    ~x
+
+
+- Bitwise XOR (^)
+    - Returns an number or BigInt whose binary representation has a 1 in each bit position
+        - For which the corresponding bits of EITHER but NOT BOTH operands are 1
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR)
+    
+    Syntax:
+
+    x ^ y
