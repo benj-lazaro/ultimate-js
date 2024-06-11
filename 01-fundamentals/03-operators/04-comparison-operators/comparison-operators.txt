@@ -1,0 +1,9 @@
+Comparison Operators
+--------------------
+- Use these operators to compare the value of a variable with something else
+    - The result of the expression is a boolean literal value (true or false)
+
+    - They are categories into:
+        - Relational Operators
+        - Equality Operators
+        
