@@ -1,0 +1,28 @@
+For
+---
+- The for statement creates a loop that consists of three optional expressions
+        - Initialization or Initial Expression
+        - Condition 
+        - Afterthought or Increment Expression or Decrement Expression
+
+    - Enclosed in parentheses and separated by semicolons
+    - Followed by a statement (usually a block statement) to be executed in the loop
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
+
+Syntax:
+
+for (initialization; condition; afterthought)
+  statement
+
+
+- JavaScript have several loops
+    - For
+    - While
+    - Do..While
+    - For..in
+    - For..of
+
+    - They all perform the same thing
+        - To repeat an action a certain number of time
+        - But there is a subtle difference on how they start & end a loop
