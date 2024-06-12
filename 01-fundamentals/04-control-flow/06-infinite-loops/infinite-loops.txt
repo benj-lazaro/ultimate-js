@@ -1,0 +1,30 @@
+Infinite Loops
+--------------
+- It is a sequence of instructions that, as written, will execute endlessly
+    - Will cause to crash the browser or (worse) the computer
+
+
+Example:
+
+let i = 0;
+
+while (i < 5) {
+  console.log(i);  
+}
+
+
+white (true) {
+    console.log("An infinite loop");
+}
+
+
+do {
+    console.log("An infinite loop");
+} while(true);
+
+
+for (let i = 0; i > 0; i++) {
+    console.log("An infinite loop");
+}
+
+
