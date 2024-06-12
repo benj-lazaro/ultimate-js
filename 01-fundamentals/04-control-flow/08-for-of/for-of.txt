@@ -1,0 +1,12 @@
+For..of
+-------
+- The for...of statement executes a loop that operates on a sequence of values
+    - Sourced from an iterable object (e.g. Array, String, Map, etc.)
+    - Introduced in ES6
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+
+
+Syntax:
+
+for (variable of iterable)
+  statement
