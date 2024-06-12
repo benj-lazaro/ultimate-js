@@ -1,0 +1,25 @@
+If...else
+---------
+- The if..else statement executes a statement if a specified condition is truthy
+    - If the condition is falsy
+    - Another statement in the optional "else" clause will be executed
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
+
+Syntax:
+
+if (condition)
+  statement1
+
+// With an else clause
+if (condition)
+  statement1
+else
+  statement2
+
+
+- In JavaScript, there are two conditional statements
+    - if..else
+    - switch..case
+    
