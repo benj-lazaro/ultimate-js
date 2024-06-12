@@ -1,0 +1,14 @@
+For..in
+-------
+- The for...in statement iterates over 
+    - Properties of an object 
+    - Elements of an array (the for..of loop is a better loop to use)
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+
+
+Syntax:
+
+for (variable in object)
+  statement
+
