@@ -1,0 +1,14 @@
+Introduction
+------------
+- An array is an ordered collection of data
+    - It is used to store multiple values under a single variable name
+    - Each item in an array has a number attached to it, called a numeric index
+
+
+- This section focuses on
+    - Adding new elements
+    - Finding elements
+    - Removing elements
+    - Splitting arrays
+    - Combining arrays
+    
