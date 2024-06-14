@@ -1,0 +1,5 @@
+Arrow Functions
+---------------
+- Implemementing a callback arrow function to the methods:
+    - .find()
+    - .findIndex()
