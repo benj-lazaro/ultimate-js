@@ -1,0 +1,46 @@
+Removing Elements
+-----------------
+- Remove elements from an array using methods:
+    - .pop()       = At the end
+    - .shift()     = At the beginning
+    - .splice()    = At the middle or specific location of an array
+
+
+- The .pop() method of the Array instances
+    - Removes the last element from an array 
+    - Returns that element
+    - This method changes the length of the array
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+    Syntax:
+
+    pop()
+
+
+- The .shift() method of the Array instances
+    - Removes the first element from an array 
+    - Returns that removed element
+    - This method changes the length of the array
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+
+    Syntax:
+
+    shift()
+
+
+- The .splice() method of the Array instances
+    - Changes the contents of an array by removing or replacing existing elements 
+    - And/or adding new elements in place
+
+    - To create a new array with a segment removed / replaced without mutating the original
+    - Use .toSpliced() method instead
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
+    Syntax:
+
+    splice(start)
+    splice(start, deleteCount)
+    splice(start, deleteCount, item1)
+    splice(start, deleteCount, item1, item2)
+    splice(start, deleteCount, item1, item2, /* …, */ itemN)
