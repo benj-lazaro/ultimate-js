@@ -1,0 +1,28 @@
+Joining Arrays
+--------------
+- To join elements of an array into a string
+
+- The .join() method of the Array instances
+    - It creates and returns a new string by concatenating all of the elements in this array
+    - Separated by a specified separator string
+
+    - If the array has only one item
+        - Then that item will be returned without using the separator
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+
+
+Syntax:
+
+join()
+join(separator)
+
+
+- It can be used in conjunction with the .split() method
+    - Divides a string value into into an ordered list of substrings & returns an array
+    
+    - Then combine the elements using .join() into a string
+        - Separated by a specified separator string
+
+    - NOTE: Particularly useful in creating URL slugs
+    
