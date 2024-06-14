@@ -1,0 +1,40 @@
+Sorting Arrays
+--------------
+- To sort primitive elements in an array, use the methods
+    - .sort()   = sorts the elements of an array in place
+    - .reverse  = reverse sort the elements of an array in place
+
+
+- The .sort() is a method of the Array instances
+    - It sorts the elements of an array in place 
+    - Returns the reference to the same array, now sorted
+    - It converts elements into strings
+        - Then comparing their sequences of UTF-16 code units values
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+
+    Syntax:
+
+    sort()
+    sort(compareFn)
+
+
+- The .reverse() is a method of the Array instances
+    - It reverses an array in place and returns the reference to the same array
+    - The first array element now becoming the last, and the last array element becoming the first
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+
+    Syntax:
+
+    reverse()
+
+
+- To sort referencee type of elements using the .sort() method
+    - Pass a callback function to be used for comparison, as an argument
+
+    - The callback function takes two arguments
+        - Representing the reference elements to be compared
+        - Checks if the values are in right (sort) order
+        - If NOT, re-arranges or sorts the reference elements
+
+        - NOTE: Sorting is case-sensitive
+            - To ensure uniformity, use .toLowerCase() or .toUpperCase() methods
