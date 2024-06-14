@@ -1,0 +1,12 @@
+Spread Operator
+---------------
+- Using the spead operator as an alternative to the .concat() method
+    - It offers a better visual representation on how arrays are combined
+    - It offers flexibility, allows to add new elements in-between arrays that are being combined
+
+
+- Using the spead operator as an alternative to the .slice() method
+    - Calling .slice() without passing an argument value
+        - Creates a copy of the original array to the new array
+
+    - With the spread operator, it offers a cleaner and better visual representation
