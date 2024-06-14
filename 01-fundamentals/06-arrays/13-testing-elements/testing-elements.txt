@@ -1,0 +1,38 @@
+Testing the Elements of an Array
+--------------------------------
+- JavaScript has new methods that tests each elements of an array
+    - .every()  = Returns true if every (all) elements matches the given criteria
+    - .some()   = Returns true if at least one element matches the given criteria
+
+    - NOTE: These methods are NOT supported by some older browsers
+
+
+- The .every() is a method of the Array instances
+    -  It tests whether ALL elements in the array pass the test 
+        - Implemented by the callback function
+        
+        - If an element did NOT match the given criteria of the callback function
+        - It IMMEDIATELY terminates the method and returns false
+
+    - It returns a Boolean value
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+
+    Syntax:
+
+    every(callbackFn)
+    every(callbackFn, thisArg)
+
+
+- The .some() is a method of the Array instances
+    - It tests whether AT LEAST one element in the array passes the test 
+    - Implemented by the callback function
+
+    - If an element did NOT match the given criteria of the callback function
+    - It IMMEDIATELY terminates the method and returns true
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+
+    Syntax:
+
+    some(callbackFn)
+    some(callbackFn, thisArg)
