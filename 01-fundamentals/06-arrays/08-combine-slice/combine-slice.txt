@@ -1,0 +1,34 @@
+Combining & Slicing Arrays
+--------------------------
+- The .concat() is a method of the Array instances
+    - It is used to merge two or more arrays
+    - Returns a new array
+    - The original arrays will not be modified
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+
+    Syntax:
+
+    concat()
+    concat(value1)
+    concat(value1, value2)
+    concat(value1, value2, /* …, */ valueN)
+
+
+- The .slice() is a method of the Array instances
+    - Returns a shallow copy of a portion of an array into a new array object 
+        - Selected from start to end (end is NOT included) 
+        - Where start and end represent the index of items in that array
+        
+    - The original array will not be modified
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+
+    Syntax:
+
+    slice()
+    slice(start)
+    slice(start, end)
+
+
+- NOTE: If the element of an array is a reference type
+    - The combined / sliced array will contain a reference to the original elements
+        - It means that changes on the original elements will be reflected back on the new array
