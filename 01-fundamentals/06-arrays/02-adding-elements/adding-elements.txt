@@ -1,0 +1,51 @@
+Adding Elements
+---------------
+- Adding elements to an array using methods:
+    - .push()       = At the end of an array
+    - .unshift()    = At the beginning of an array
+    - .splice()     = At the middle or specific location of an array
+
+
+
+- The .push() method of the Array instances
+    - Adds the specified elements to the end of an array 
+    - Returns the new length of the array
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
+    Syntax:
+
+    push()
+    push(element1)
+    push(element1, element2)
+    push(element1, element2, /* …, */ elementN)
+
+
+- The .unshift() method of the Array instances
+    - Adds the specified elements to the beginning of an array 
+    - Returns the new length of the array    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+
+    Syntax:
+
+    unshift()
+    unshift(element1)
+    unshift(element1, element2)
+    unshift(element1, element2, /* …, */ elementN)
+
+
+- The .splice() method of the Array instances
+    - Changes the contents of an array by removing or replacing existing elements 
+    - And/or adding new elements in place
+
+    - To create a new array with a segment removed / replaced without mutating the original
+    - Use .toSpliced() method instead
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
+    Syntax:
+
+    splice(start)
+    splice(start, deleteCount)
+    splice(start, deleteCount, item1)
+    splice(start, deleteCount, item1, item2)
+    splice(start, deleteCount, item1, item2, /* …, */ itemN)
