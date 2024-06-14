@@ -1,0 +1,16 @@
+Mapping an Array
+----------------
+- The .map() method of the Array instances
+    - Creates a new array 
+    - Populated with the results of calling a provided callback function 
+    - On every element in the calling array
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+
+Syntax:
+
+map(callbackFn)
+map(callbackFn, thisArg)
+
+
+- The .filter() and .map() methods are chainable
