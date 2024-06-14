@@ -1,0 +1,43 @@
+Finding Elements (Primitives)
+-----------------------------
+- Finding primitive elements in an array using methods:
+    - .indexOf()        = Returns the index of the primitive element
+    - .lastIndexOf()    = Returns the index of the last re-occurring primitive element
+    - .includes()       = Returns a boolean value if primitive element exists within an array
+
+
+- The .indexOf() method of the Array instances
+    - Returns the first index at which a given element can be found in the array
+    - Returns -1 if it is not present
+
+    - The fromIndex argument can be set to identify where to start the search
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+
+    Syntax:
+
+    indexOf(searchElement)
+    indexOf(searchElement, fromIndex)
+
+
+- The .lastIndexOf() method of the Array instances
+    - Returns the last index at which a given element can be found in the array
+    - Returns -1 if it is not present
+
+    - The array is searched backwards, starting at fromIndex
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf)
+
+    Syntax:
+    lastIndexOf(searchElement)
+    lastIndexOf(searchElement, fromIndex)
+
+
+- The .includes() method of the Array instances
+    - Determines whether an array includes a certain value among its entries
+    - Returns true or false as appropriate
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+
+    Syntax:
+
+    includes(searchElement)
+    includes(searchElement, fromIndex)
+    
