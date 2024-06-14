@@ -1,0 +1,18 @@
+Reducing an Array
+-----------------
+- The .reduce() is a method of the Array instances
+    - It executes a user-supplied "reducer" callback function 
+        - On each element of the array, in order, 
+        - Passing in the return value from the calculation on the preceding element
+        
+    - The final result of running the reducer across all elements of the array is a single value
+
+    - The initialValue parameter is OPTIONAL 
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+
+
+Syntax:
+
+reduce(callbackFn)
+reduce(callbackFn, initialValue)
