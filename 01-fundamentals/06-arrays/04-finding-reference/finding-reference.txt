@@ -1,0 +1,29 @@
+Finding Elements (Reference)
+----------------------------
+- Finding reference elements in an array using methods:
+    - .find()       = Returns the reference element 
+    - .findIndex()  = Returns the index of the reference element
+
+
+- The .find() method of the Array instances
+    - Returns the first element in the provided array that satisfies the provided callback function
+    - Returns "undefined" if no value satisfies the callback function
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+
+    Syntax:
+
+    find(callbackFn)
+    find(callbackFn, thisArg)
+
+
+- The .findIndex() method of the Array instances
+    - Returns the index of the first element in an array that satisfies the provided callback function
+    - Returns -1 if no value satisfies the callback function
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+
+    Syntax:
+
+    findIndex(callbackFn)
+    findIndex(callbackFn, thisArg)
+
+
