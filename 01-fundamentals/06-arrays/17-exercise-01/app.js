@@ -13,5 +13,6 @@ function arrayFromRange(min, max) {
   return output;
 }
 
+// Test Code
 const numbers = arrayFromRange(-10, -4);
 console.log(numbers);
