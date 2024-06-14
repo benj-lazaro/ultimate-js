@@ -1,0 +1,39 @@
+Emptying an Array
+-----------------
+- There are four (4) ways to empty an Array
+
+- Solution #1:
+    - If the array is stored in a variable, NOT a constant
+    
+    - Assign a new empty array
+        - The address of the new empty array is stored on the variable
+        - Effectively empties the array
+    
+    - ONLY effective if the former array is NOT referenced anywhere in the code
+        - Otherwise, it will remain in heap memory
+        - The garbage collector will NOT remove it from memory
+
+
+- Solution #2: (RECOMMENDED)
+    - Accessing the .length property of the array
+    - Assigning it with the value of 0
+    - Effectively empties the array
+        - This also reflects on the pieces of code referencing the former array
+
+
+- Solution #3: (RECOMMENDED)
+    - Using the .splice() method
+    - Passing the index value of 0 as the 1st argument
+    - Passing the .length property of the array
+    - Effectively empties the array
+        - This also reflects on the pieces of code referencing the former array
+
+
+- Solution #4:
+    - Using the .pop() method inside of a loop (e.g. while)
+    - Effectively empties the array
+        - This also reflects on the pieces of code referencing the former array
+
+        - Individually popping element using a loop can be a performance cost
+            - IF the array contains a significant number of elements
+            - The code tends to be "noisy"
