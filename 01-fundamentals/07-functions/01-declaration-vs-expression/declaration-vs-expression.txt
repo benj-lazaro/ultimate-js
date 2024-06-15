@@ -1,0 +1,8 @@
+Function Declarations vs Expressions
+------------------------------------
+- Demonstration on the difference between:
+    - Function Declaration
+
+    - Function Expression
+        - Anonymous function expression
+        - Named function expression
