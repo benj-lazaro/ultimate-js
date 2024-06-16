@@ -1,0 +1,12 @@
+Hoisting
+--------
+- The advantage of a declared function
+    - It can be called even if they are declared at the latter part of the code base
+
+    - JavaScript Engine automatically moves all function declarations 
+        - To the start of the code base at run-time
+        - This action is known as Hoisting
+        - It is the process of moving function declarations to the top of the file (or code base)
+
+    - Hoisting is NOT possible with an anonymous or named function expression
+        - Doing do triggers an "Uncaught ReferenceError: Cannot access <function> before initialization"
