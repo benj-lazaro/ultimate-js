@@ -1,0 +1,30 @@
+Rest Operator
+-------------
+- Also known as the Rest Parameter Syntax
+    - It allows a function to accept an indefinite number of arguments as a real array
+
+    - NOTE: The rest parameter MUST be the LAST FORMAL Parameter
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+
+
+Syntax:
+
+function f(a, b, ...theArgs) {
+  // …
+}
+
+
+- In modern JavaScript
+    - Rest operator is used for a function with varying amount of parameters 
+
+
+- NOTE: It similarly looks the same as the spread operator
+    - Their differences lies on their function and where they are used
+
+    - Spread operator often used with arrays
+        - it "spreads" collection into individual elements
+
+    - Rest operator used on the parameter definition of a function declaration
+        - It collects the varying argument values passed
+        - Place the "rest" of them as individual elements in a real array
