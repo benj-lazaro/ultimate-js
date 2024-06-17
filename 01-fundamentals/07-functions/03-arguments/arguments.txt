@@ -1,0 +1,20 @@
+Arguments
+---------
+- It is an array-like object accessible inside functions 
+    - That contains the values of the arguments passed to that function
+    
+    - It has a length property and properties indexed from zero
+        - BUT does NOT have Array's built-in methods e.g. forEach() or map()
+        - It can be converted to a real array using
+            - .slice()
+            - Array.from()
+            - spread operator/syntax (...)
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
+
+
+- It allows any number of arguments to be received by a function
+
+
+- Due to the aruments object's built-in Symbol.iterator 
+    - The for..of loop can be used to iterate each value
