@@ -1,0 +1,19 @@
+Default Parameter
+-----------------
+- Default parameters allow named parameters to have default values
+    - If NO value or an undefined value is passed
+
+    - NOTE: Once a default value is assigned to a parameter
+        - SUCCEEDING parameters MUST be assigned with a default value
+        
+        - If inevitable, an "undefined" value can be passed to match the parameter's position
+            - It is considered BEST PRACTICE to AVOID USING this workaround
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+
+
+Syntax:
+
+function fnName(param1 = defaultValue1, /* …, */ paramN = defaultValueN) {
+  // …
+}
