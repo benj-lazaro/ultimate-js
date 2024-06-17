@@ -1,0 +1,7 @@
+Getters and Setters
+-------------------
+- There are special kind of methods in objects
+    - Getters   = Access properties
+    - Setters   = Change / mutate the value assign to a property
+
+    
