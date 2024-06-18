@@ -1,0 +1,24 @@
+let vs var
+----------
+- Using the "var" keyword
+    - Creates function-scoped variables
+    - Best AVOID using it
+
+    - Defining a global variable with "var"
+        - Automatically gets attached to the global "window" object as a property
+        
+        - Global variables of 3rd-party libraries
+            - MIGHT clash and override your global variables
+            - Causing all sorts of issues
+
+
+- SIDE NOTE: Globally defined functions ALSO gets attached to the global "window" object
+
+
+- Using the "let" or "const" keyword
+    - Creates block-scoped variable or constant
+        - Returns an "Uncaught ReferenceError: <variable> is not defined at.."
+        - When accessing a variable / constant outside of its block scope
+
+    - Defining a global variable with "let" or "const"
+        - Does NOT get attachd to the global "window" object
