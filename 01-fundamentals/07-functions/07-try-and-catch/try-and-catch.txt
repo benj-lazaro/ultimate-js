@@ -1,0 +1,42 @@
+Try and Catch
+-------------
+- The throw statement throws a user-defined exception (i.e. try..catch block)
+    - Execution of the current function will stop 
+        - The statements after throw won't be executed
+        - The control will be passed to the first catch block in the call stack
+        - If no catch block exists among caller functions, the program will terminate
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+
+    Syntax:
+
+    throw expression;
+
+
+- The try.. catch statement
+    - It is comprised of a try block and either a catch block, a finally block, or both
+
+    - The code in the try block is executed first
+    - If it throws an exception, the code in the catch block will be executed
+    - The code in the finally block will always be executed 
+        - Before control flow exits the entire construct
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+
+    Syntax:
+
+    try {
+    tryStatements
+    } catch (exceptionVar) {
+    catchStatements
+    } finally {
+    finallyStatements
+    }
+
+
+- Difference between an error and exception
+    - Error is a plain JavaScript object
+
+    - The moment that an error is thrown
+        - It is referred as an exception
+        - An exceptional situation that should NOT have happened
