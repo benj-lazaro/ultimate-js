@@ -1,0 +1,22 @@
+Local and Global Scope
+----------------------
+- The scope is the current context of execution 
+    - In which values and expressions are "visible" or can be referenced
+    - If a variable or expression is not in the current scope, it will not be available for use
+
+
+- JavaScript has the following kinds of scopes
+    - Global    = The default scope for all code running in script mode
+    - Module    = The scope for code running in module mod
+    - Function  = The scope created with a function
+
+
+- Variables declared with "let" or "const" can belong to an additional scope
+    - Block     = The scope created with a pair of curly braces
+
+
+- Reference (https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+
+
+- NOTE: In general, avoid defining global scoped variables or constants
+    - It is considered bad practice
