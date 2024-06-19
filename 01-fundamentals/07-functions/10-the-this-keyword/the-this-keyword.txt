@@ -1,0 +1,29 @@
+The this Keyword
+-----------------
+- The "this" keyword refers to the object that is executing the current function
+    - In OOP, "this" refers to the object that a method is attached to
+
+
+- The value of "this" depends on how a function is invoked (i.e. runtime binding); NOT how it is defined
+    - If a function is part of an object (i.e. method)
+        - The value of "this" refers to that object
+
+    - If a function is a standalone function (NOT part of an object)
+        - The value of "this" refers to the global "window" object in non-strict mode (default)
+        - The value of "this" is "undefined" in strict mode
+
+        - The value of "this" refers to global in Node.js
+
+    - If a function is a constructor function
+        - The value of "this" refers to the object created by the constructor function
+        - The "new" operator used by the constructor function creates a new empty object
+            - Assigns the value of "this" to the empty object
+
+
+- Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+
+
+Syntax:
+
+this
+
