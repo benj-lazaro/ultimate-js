@@ -1,0 +1,32 @@
+Changing this
+-------------
+- The following are ways of changing the value of "this" in a function
+    - Particularly when dealing with callback functions inside an object's method
+
+    - 1st solution: the self approach
+        - Creating a constant variable
+        - Assign the "this" keyword as value 
+        - This is NOT a preferred method 
+
+        const self = this;
+
+
+    - 2nd solution: built-in methods
+        - .call()
+            - Uses the passed 1st argument value as the current object
+            - Can accept multiple arguments besides the object
+
+        - .apply()
+            - Same as .call() method EXCEPT succeeding arguments MUST be passed as an array
+
+        - .bind()
+            - Same as .apply() and .call() methods EXCEPT it returns a new function
+            - The new function sets the value of "this" to point to the passed object PERMANENTLY
+            - Considered as an "old" way of changing the value of "this" 
+
+
+    - 3rd solution: arrow function
+        - An arrow function INHERITS the value of "this"
+            - From the containing method (of an object) where it is defined & executed
+        
+        - Considered the modern approach of changing the value of "this"
