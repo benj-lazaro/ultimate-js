@@ -1,0 +1,5 @@
+What is OOP?
+------------
+- It is a programming paradigm or style of programming
+    - Centered around objects rather than functions
+    
