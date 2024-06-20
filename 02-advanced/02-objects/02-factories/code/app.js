@@ -1,6 +1,6 @@
 // Factories Demo
 
-// Create an object using factory or constructor function
+// Create an object using factory function
 function createCircle(radius) {
   return {
     radius,
