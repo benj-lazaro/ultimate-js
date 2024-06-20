@@ -1,0 +1,13 @@
+Factories
+---------
+- Creating multiple copies of the same object using Object Literal Notation / Syntax
+    - Can be an ISSUE IF the source object has at least one (1) method
+    - A bug in that method will be replicated throughout its copies
+
+
+- The solution is to use a factory or constructor function
+    - If the property & assigned variable (holding the value) have identical names
+        - Remove the variable name from the value side
+
+    - Eliminates the issue presented when using Object Literal Notation / Syntax 
+
