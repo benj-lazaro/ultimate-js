@@ -1,0 +1,30 @@
+Constructors
+------------
+- The different between a factory and constructor functions
+    - Factory function
+        - Declares a regular standalone function using the CamelCase naming convention
+
+        - Uses the Object Literal Notation / Syntax to create the object
+
+        - Explicitly returns the object using the "return" statement
+
+
+    - Constructors function
+        - Declares a regular standalone function using the Pascal naming convention
+
+        - Uses the "new" keyword to create an empty object
+
+        - Uses the "this" keyword when defining a property and method of the object
+            - "this" refers to the object associated to the current line of code
+
+        - Implicitly returns the object
+
+
+- Which one to use
+    - Boils down to personal preference
+        - C# and Java developers    = constructor function
+        - Other developers          = factory function
+
+    - Best to be familiar with both patterns as a developer
+        - Dev teams and project utilize either patterns when creating an object
+    
