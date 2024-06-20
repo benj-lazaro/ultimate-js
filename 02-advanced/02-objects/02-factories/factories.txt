@@ -5,9 +5,8 @@ Factories
     - A bug in that method will be replicated throughout its copies
 
 
-- The solution is to use a factory or constructor function
-    - If the property & assigned variable (holding the value) have identical names
-        - Remove the variable name from the value side
+- The solution is to use a factory function
+    - It eliminates the issue presented using Object Literal Notation / Syntax
 
-    - Eliminates the issue presented when using Object Literal Notation / Syntax 
-
+    - NOTE: If property name & assigned variable (holding the value) have identical names
+        - Remove the variable name
