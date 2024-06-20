@@ -1,0 +1,9 @@
+Object Literals
+---------------
+- The object literal notation / syntax is the simpliest way to create an object
+    - Defines the properties & methods members
+
+    - A property holds a value
+
+    - A method defines some logic
+        - Basically a function that is a member of an object
