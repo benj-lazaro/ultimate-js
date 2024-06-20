@@ -1,0 +1,21 @@
+Four Pillars of OOP
+-------------------
+- Refers to the four core concepts of OOP
+    - Encapsulation
+        - Groups related variables & functions together
+        - Reduces complexity 
+        - Increase reusability
+            - Reuse objects in different parts of the program or in different programs
+
+    - Abstraction
+        - Hide details and complexity
+        - Shows ONLY the essentials
+        - Reduces complexity
+        - Isolates impact of changes in the code
+
+    - Inheritance
+        - Eliminates redundant code
+
+    - Polymorphism
+        - Refactors ugly switch / case statements
+        
