@@ -1,0 +1,23 @@
+Constructor Property
+--------------------
+- Every object in JavaScript
+    - Has a property called constructor
+    - That property references to the function used to create an object
+
+
+- Accessing the property of an object created using the object literal notation / syntax
+    - Returns JavaScript's built-in constructor function
+       
+    const <object_name> = {};
+
+    // This is equivalent to using JavaScript's built-in Object() constructor
+
+    const <object_name> = new Object();
+
+
+- Accessing the property of an object created using a factory function
+    - Returns JavaScript's built-in constructor function
+
+
+- Accessing the property of an object created using a constructor function
+    - Returns the defined properties and method(s) of the constructor function
