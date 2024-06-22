@@ -1,0 +1,4 @@
+Functions are Objects
+---------------------
+- Typing the name of the function followed by a "."
+    - Returns the properties and methods of that function
