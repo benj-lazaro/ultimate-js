@@ -1,0 +1,11 @@
+Abstraction
+-----------
+- The principle behind abstration of object-oriented programming (OOP)
+    - Hide details (implementation details) and its complexities
+    - Show ONLY the essentials
+
+
+- This is to provent unintentional access and/or modifications 
+    - On said internal implementation (properties / method)
+    - That may introduce problems
+
