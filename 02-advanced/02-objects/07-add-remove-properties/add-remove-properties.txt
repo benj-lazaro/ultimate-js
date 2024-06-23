@@ -1,0 +1,14 @@
+Adding or Removing Properties
+-----------------------------
+- Objects in JavaScript are dynamic
+    - You can add or remove properties during the program's execution
+
+    - The bracket notation [..] can be useful when adding a property dynamically
+        - But have NO idea what will be the name of the property ahead of time
+
+        - Or on property name that are NOT valid identifiers
+            - special characters in-between words
+            - whitespace in-between words
+
+
+- Use the "delete" operation to dynamically remove a property
