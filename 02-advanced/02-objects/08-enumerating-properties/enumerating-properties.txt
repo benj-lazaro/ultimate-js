@@ -1,0 +1,20 @@
+Enumerating Properties
+----------------------
+- To iterate over (enumerate) properties (and methods) of an object
+    - Use the for..in loop
+    - Use the bracket notation [..] to retrieve the respective values
+    
+    - Use the "typeof" operator to retrieve the properties ONLY
+    - In conjunction with an "if" statement
+
+
+- Alternatively, use Object.keys()
+    - Pass the object as an argument value
+    - Returns the property and method names as elements of an array
+
+    - CONS: unable to separate properties from methods
+
+
+- To determine the existence of a property in an object
+    - Use the "in" operator
+    - In conjunction with an "if" statement
