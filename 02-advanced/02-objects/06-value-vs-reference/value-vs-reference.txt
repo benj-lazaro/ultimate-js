@@ -1,0 +1,30 @@
+Values vs Reference Types
+-------------------------
+- JavaScript has two categories of data Types
+    - Value (primitives)
+        - Refers to the actual value
+        - e.g. boolean, number, string, symbol, undefined, null
+
+        - When a value is copied to another variable
+            - The values in the said variables are independent of each other
+
+    - Primitives are copied by their VALUE
+
+
+    - Reference (objects)
+        - Refers to the location of the actual value in memory
+        - e.g. array, function, object
+
+        - When a reference value is assigned to a variable
+            - The actual value is NOT stored
+            - The address (reference) of the value in memory is stored
+
+        - When a reference value is copied to anther variable
+            - The location of the value in memory is copied
+            - Therefore, both variables are referencing to the SAME value in memory
+            
+            - Any changes made in the first variable
+                - Will be reflected on the succeeding variables
+
+    - Objects are copied by their REFERENCE
+
