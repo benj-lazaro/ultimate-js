@@ -1,0 +1,24 @@
+Exercise: Stopwatch
+-------------------
+- Design a stopwatch object
+    - Use a constructor function to define a new object
+
+    - The object has a few members
+        - duration  = property; default value of 0
+        - reset     = method
+        - start     = method
+        - stop      = method
+
+    - The duration property
+        - Initially has the value of 0
+        - It holds the number of seconds the between the start() & stop() methods were called
+
+    - The start() method starts the stopwatch
+        - This method can NOT be called twice
+        - Otherwise, throws an error "Stopwatch has alredy started."
+
+    - The stop() method stops the stopwatch
+        - This method can NOT be called twice
+        - Otherwise, throws an error "Stopwatch is not started."
+
+    - The reset() method resets the value of the duration property back to 0
