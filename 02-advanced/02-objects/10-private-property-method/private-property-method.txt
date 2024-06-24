@@ -1,0 +1,8 @@
+Private Properties & Methods
+----------------------------
+- To implement abstraction by hiding certain members of an object from the outside
+    - Members referring to properties and/or methods primarily used for internal implementation
+
+    - Declare private properties as local variables / constants
+    - Declare private methods a local functions
+
