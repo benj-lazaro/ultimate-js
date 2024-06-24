@@ -1,0 +1,29 @@
+Getters and Setters
+-------------------
+- To read from and write to a "private" property of an object
+    - Use the Object.defineProperty() method to define a getter and/or setter functions
+    
+    - To define a Getter and/or Setter function
+        - That reads and sets, respectively the value of a "private" property
+
+    - The method requires the following argument values
+        - 1st parameter = "this" (object where the getter/setter function is/are defined)
+        - 2nd parameter = name of "private" property to read from / write to
+        - 3rd parameter = an object containing a getter and/or setter function(s)
+
+    - Then returns the object
+
+    - PROS: validation check can be implemented inside a setter function
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+
+
+- Scope vs Closures of an inner function
+    - Closure is able to access both local and parent defined variables
+        - When the inner function terminates
+            - Local variables get terminated
+            - Access & state of  the parent variables remains in memory
+
+    - Scope is limited to access its local variables
+        - When the inner function terminates
+            - Local variables get terminated
