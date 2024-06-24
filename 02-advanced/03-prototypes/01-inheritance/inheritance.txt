@@ -1,0 +1,18 @@
+Inheritance
+-----------
+- Inheritance is one of the core conceprs of object-oriented programming (OOP)
+    - Wherein it enables an object
+    - To take on properies and/or methods of another object
+
+    - This makes it easy to reuse code in different parts of an application
+
+
+- In the classical definition of Inheritance
+    - A direct / sub / child class inherits the properties and methdos of the base / super / parent class
+
+    - The inheritance relationship between the two is referred as "is-a"
+        - e.g. The relationship between circle child class and the shape parent class
+        - Can be described as "circle IS A shape"
+
+    - NOTE: JavaScript do NOT have classes, ONLY objects
+        - This is where "prototypical inheritance" comes into the picture

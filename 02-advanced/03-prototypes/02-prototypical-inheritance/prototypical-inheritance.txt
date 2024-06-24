@@ -1,0 +1,33 @@
+Prototypical Inheritance
+------------------------
+- In JavaScript, a prototype is essentially a parent of another objects
+    - Prototype is just a regular object in memory
+
+    - Every object has a prototype or parent 
+        - Except for the root object
+
+    - It contains the properties and/or methods
+        - Commonly used by its child objects 
+
+
+- Every object has a deprecated property "__proto__" or "[[Prototype]]"
+    - Every object indirectly inherits from a single prototype object
+        - This is the root of all objects in JavaScript
+
+    - All objects except for the root object or the prototype object itself
+        - Wherein it's "__proto__" property has the value of "null"
+
+    - To prove that all objects came from a single prototype object
+        - Use Object.getPrototypeOf(), tt returns the content of the prototype object
+
+
+- Prototypical inheritance in action
+    - When accessing a property and/or method of an object
+    - The JavaScript Engine first checks inside of an object
+    - If NOT found, it looks up at the "prototype" of that object
+    - If NOT found, it looks up at the "prototype" of the "prototype"
+    - Until it either finds the target member or reaaches the root object 
+    
+    - In summary, when accessing a property or method of an object
+        - The JavaScript Engine walks up the prototype chain
+        - To find the target member (property and/or method)
