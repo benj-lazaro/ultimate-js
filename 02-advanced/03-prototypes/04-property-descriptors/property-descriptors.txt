@@ -1,0 +1,36 @@
+Property Descriptors (Attributes)
+---------------------------------
+- A JavaScript object inherits properties & methods of the parent object (prototype)
+    - View by expanding the "__proto__" property of the object in the JavaScript console
+
+    - HOWEVER, iterating over an object to enumerate its properties and methods
+        - ONLY returns the  defined properties and methods in the object
+        - EXCLUDING the inherited properties and methods from its parent object (prototype)
+
+
+    - The reason being is that an object's properties and methods 
+        - Have attributes (descriptors) attached to them
+
+        - Descriptors that define if a property / method can be
+            - Deleted, enumerated, overwritten or change its default implementation
+
+
+- To view an object's member (property / method) descriptors
+    - Use the method Object.getOwnPropertyDescriptor()
+        - 1st parameter = target object
+        - 2nd parameter = target property or method name
+        
+        - Returns an object containing the "property descriptors"
+
+    - Descriptor (attributes)
+        - configurable  = this member can be deleted if wanted to
+        - enumerable    = this member can be enumerate by for..in or Object.keys()
+        - value         = default implementation of the property or method
+        - writrable     = this member can be overwritten; can change its implementation or set its value
+
+
+- To change an object's member (property / method) descriptors
+    - Use the method Object.defineProperty()
+        - 1st parameter = target object
+        - 2nd parameter = target property or method
+        - 3rd parameter = property descriptor object (set the descriptors here)
