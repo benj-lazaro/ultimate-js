@@ -1,0 +1,35 @@
+Prototype vs Instance Members
+-----------------------------
+- Every object instantiated from a constructor function
+    - Each instance has a duplicate copy of its parent's members (property / method)
+    - Each one loaded on memory
+
+    - If there are 1000 objects created
+        - There will be 1000 copies of parent's instance members loaded on memory
+        - Resulting to a waste of memory
+
+
+- To address this issue
+    - Move methods from being an instance member
+    - To be a member of the constructor function's "prototype"
+        - Also referred as a prototype member
+
+    - This is done by using the dot notation
+        - To append the name of the method
+        - Followed by "="
+        - Then the body of the method
+
+        Circle.prototype.draw = function () {
+            console.log("Calling method from within the prototype...");
+        };
+
+    - Through multilevel inheritance. thte JavaScript Engine will from hereon
+        - Reference the method of the constructor function's prototype
+
+    - Resulting to a single instance of the method in memory
+        - Regardless how many objects are created
+
+
+- To overwrite the implementation of a prototype member method
+    - Directly assign a new implementation (code) using the "=" operator
+    
