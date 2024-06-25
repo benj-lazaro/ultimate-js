@@ -1,0 +1,9 @@
+Multilevel Inheritance
+----------------------
+- Refers to the inheritance of an object
+    - From a parent object (prototype)
+    - From the root object
+
+
+- Objects created by a given constructor
+    - Will have the same prototype (parent object)
