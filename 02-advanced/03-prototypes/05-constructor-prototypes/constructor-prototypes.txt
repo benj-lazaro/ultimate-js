@@ -1,0 +1,14 @@
+Constructor Prototypes
+----------------------
+- Every object in JavaScript (except for the root Object) has a root parent or prototype
+    - To get an object's prototype (parent)
+        - Use the method Object.getPrototypeOf()
+            - 1st parameter = target object
+
+        - Returns the same content when accessing the "__proto__" property of the object
+
+
+- A constructor function has their own "prototype" property
+    - This refers to the object that will be used as parent object
+    - To the objects that will be created from this constructor function
+
