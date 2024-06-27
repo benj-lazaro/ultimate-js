@@ -1,0 +1,28 @@
+Resetting The Constructor
+-------------------------
+- Every object in JavaScript has a constructor property
+    - Returns the function that was used to create the object
+
+    - It basically calls
+
+        <constructor_function_name>.prototype.constructor()
+
+    - Which is equivalent to what is normally used to instantiate an object
+
+        new <constructor_function_name>()
+
+    - This is quite useful to dynamically create an object
+        - Based on another object's constructor property
+
+
+- The problem with resetting an object's contructor property to inherit another object's methods
+    - Effectively writing your own prototypical inheritance
+
+    - The object lost its own "constructor" property
+        - Inherits the other object's constructor function instead
+
+
+- Best practice when resetting an object's prototype property to inherit another object's methods
+    - Reset the object's "constructor" property back to its own constructor function name
+
+        <constructor_function_name>.prototype.constructor = <constructor_function_name>
