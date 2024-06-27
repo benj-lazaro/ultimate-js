@@ -1,0 +1,12 @@
+Avoid Extending Built-in Objects
+--------------------------------
+- Despite how easy it is to add new properties / methods to a existing object
+    - Do NOT modify (extend) the built-in objects in JavaScript
+    - Do NOT modify objects that you do NOT own   
+    - Do NOT add, remove or modify the built-in object's properties and/or methods
+
+
+- Doing so creates of sorts of issues
+    - With a 3rd-party library that might be dependent on a built-in object's properties / methods
+    - With a 3rd-party library's extended built-in object
+    - With JavaScript developers' future implementation of a built-in object
