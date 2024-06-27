@@ -1,0 +1,30 @@
+Create Your Own Prototypical Inheritance
+----------------------------------------
+- Instead of duplicating methods among objects created by different constuctor functions
+    - It is best to create your own prototypical inheritance
+
+    - By migrating commonly used methods as prototype members of a base object
+
+    - Use the method Object.create()
+        - To create (returns) a new object using an existing object as prototype
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+
+        Syntax:
+
+        Object.create(proto)
+        Object.create(proto, propertiesObject)
+
+
+    - Assign the returned object as the prototype of the constructor functions
+        - Ensures the single instance of commonly used methods in memory
+
+        - Regardless of the number of objects created by different constructor functions
+            - Constructor functions pointing to the same base object's prototype
+
+
+- NOTE: By default, constructor functions references the root object as prototype
+    - Instantiated objects points to their respective constructor functions as prototype
+
+    - Using the Object.create() method changes the value of the prototype (root object)
+        - To another object
+        - Inherits that objects prperties and/or methods
