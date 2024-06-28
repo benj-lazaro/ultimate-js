@@ -1,0 +1,31 @@
+Method Overriding
+-----------------
+- In a situation wherein a parent object's prototype member
+    - Is NOT ideal for a specific child object & requires a different implementation
+    - Method overriding addresses this need
+
+
+- The specific parent object's prototype member is copied
+    - Pasted AFTER the child object's resetted its "prototype" & "constructor" properties
+        - To inherit the parent object's prototype members
+        - NOTE: Pasting BEFORE he reset will result to changes being lost
+
+    - Redefine the prototype member as the child object's own prototype member
+        - Replace the constructor fnction name with that of the child's constructor function
+
+    - Implement specific changes for the prototype member
+
+
+- When the JavaScript Engine encounters the child object invoking that prototype member
+    - JavaScript Engine walks up the prototype chain
+    - Picks the 1st implementation (child object's prototype member) will be used
+
+
+- To call the implementation of the parent object's prototype member(s) within a child object
+    - Calling it direcctly
+
+        <parent_constructor_name>.prototype.<prototype_member>();
+
+    - Using the .call() Method and passing "this" as argument value
+
+    <parent_constructor_name>.prototype.<prototype_member>.call(this);
