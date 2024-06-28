@@ -1,0 +1,9 @@
+Calling the Super Constructor
+-----------------------------
+- To inherit the instance member(s) of a parent object's constructor function into a child object
+    - Call the Super Constructor of the parent object w/in the child object
+        - Preferably prior to declaring its own instance member(s)
+
+    - Use the .call() method in calling the parent object's constructor function name
+        - 1st parameter = this (to refer to the child object) 
+        - 2nd paramter  = argument value(s) required by the parent object's instance member(s)
