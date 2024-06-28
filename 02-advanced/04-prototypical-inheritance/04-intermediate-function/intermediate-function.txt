@@ -1,0 +1,25 @@
+Intermediate Function Inheritance
+---------------------------------
+- When creating multiple child objects and
+    - Resetting their "prototype" property to inherit their parent's prototype members
+
+        <child_obj_constructor>.prototype = Object.create(<parent_obj_constructor>.prototype);
+
+    - Resetting their "constructor" property back to their own
+        - So as NOT to reference the root object
+
+        <child_obj>.prototype.constructor = <child_obj_constructor>;
+            
+    - Results to "noisy" code due to redundancy
+        - Having written the same line of code repeatedly for each object created
+        - Introduces the possibility of a typographical error
+
+    - To address this issue
+        - Encapsulate the logic (2 lines of code) into a reusable function     
+            - That accepts two argument values
+            - The name of the constructor function of both parent and child objects
+        
+        - This function is referred as Intermediate Function Inheritance
+
+        - Call this function RIGHT AFTER the child object's constructor function
+            - Prior to creating their respective objects
