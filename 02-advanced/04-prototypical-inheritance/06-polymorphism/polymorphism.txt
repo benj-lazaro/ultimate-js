@@ -1,0 +1,9 @@
+Polymorphism
+------------
+- Polymorphism
+    - Poly  = many
+    - Moprh = form
+
+    - It is a powerful concept in object-oriented programming (OOP)
+
+
