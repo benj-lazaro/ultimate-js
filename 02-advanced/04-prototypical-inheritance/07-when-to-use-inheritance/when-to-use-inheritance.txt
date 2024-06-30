@@ -1,0 +1,30 @@
+When To Use Inheritance
+-----------------------
+- Inheritance addresses the problem of code reuse
+    - However, it can make the source code complex and fragile
+
+    - Avoid using inheritance for the sake of using it
+        - Particularly on small projects
+        - Keept it simple and stupid
+        
+    - When to use inheritance
+        - Start with simple objects
+
+    - When a number of objects share similar features
+        - Encapsulate those features inside of a generic object
+        - Use inheritance to create new objects
+
+    - However, it may introduce complex / multilevel inheritance hierarchies
+        - They are very fragile
+        - AVOID creating inheritance hierarchies
+        - Keep inheritance hierarchy to ONE LEVEL ONLY
+
+
+- Favor "Composition" over "Inheritance"
+    - Composition offers great flexibility over complex inheritance hierarchies
+
+    - Focuses on features as independent plain JavaScript objects
+        - Each with their own properties and/or methods
+    
+    - Create new objects from a combination of any of these independent objects
+        - JavaScript uses Mixins to achieve Composition
