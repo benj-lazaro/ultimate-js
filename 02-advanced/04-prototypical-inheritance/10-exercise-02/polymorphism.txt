@@ -1,0 +1,22 @@
+Exercise 02: Polymorphism
+-------------------------
+- Based on the previous exercise
+    - Extend the HtmlSelectElement object
+        - Implement a .render() method
+            - Accepts an array as argument value
+
+            - Renders items as HTML code
+                - Each item is embedded within a pair of <option> tags
+                - <option> tags are collectively embedded within a pair of <select> tags
+
+
+    - Create a new object HtmlImageElement
+        - Optionally accepts the source of an image
+        - It has instance member
+            - src   = source address of image
+
+        - It has a prototype member
+            - .focus()
+
+        - It inherits from an instance of HtmlElement
+        
