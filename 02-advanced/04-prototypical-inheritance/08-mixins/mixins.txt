@@ -1,0 +1,23 @@
+Mixins
+------
+- Mixin is a class
+    - Wherein some or all of its methods and/or properties are unimplemented
+    - Requires another class to provide the missing implementations
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Glossary/Mixin)
+
+
+- This is achieved using an ES6 method Object.assign()
+    - A static method that copies all enumerable own properties
+    - From one or more source objects to a target object
+    - Returns the modifed target object
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+
+    Syntax:
+
+    Object.assign(target)
+    Object.assign(target, source1)
+    Object.assign(target, source1, source2)
+    Object.assign(target, source1, source2, /* …, */ sourceN)
+
