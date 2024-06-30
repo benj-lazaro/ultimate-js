@@ -1,0 +1,22 @@
+ES6 Classes
+-----------
+- Unlike regular classes in languages such as C# or Java
+    - JavaScript classes are syntatic sugar over
+        - Prototypical inheritance
+        - Constructor functions
+
+    - It offers a cleaner and simpler way of
+        - Creating objects
+        - Implementing inheritance
+
+
+- The constructor() method within the body if a class 
+    - Is used to initialize objects
+    - It is also where instance members (properties/methods) of an object is located
+
+    - Prototype members are defined
+        - Outside the constructor() method
+        - Within the body of the class
+        - The "function" keyword is removed
+        - Directly implement the name & body of the method
+
