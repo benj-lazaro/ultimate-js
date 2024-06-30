@@ -1,0 +1,21 @@
+Exercise 01: Prototypical Inheritance Exercise
+----------------------------------------------
+- Design two objects
+    - HTMLElement
+        - It contains 1 instance (own) method named click()
+        - It inherits 1 prototype method named focus()
+    
+    - HtmlSelectElement
+        - Optionally receives an array of items
+
+        - If nothing is passed
+            - The this.items property will be initialized as an empty array
+
+        - It has the following instance (own) methods
+            - addItem()     = Adds an item to the array
+            - removeItem()  = Removes an item from the array
+
+        - This object is an instance of HTMLElement object
+
+
+- Create a new object using a constructor function
