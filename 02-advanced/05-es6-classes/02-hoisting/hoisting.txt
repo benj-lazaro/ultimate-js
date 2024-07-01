@@ -1,0 +1,23 @@
+Hoisting
+--------
+- In JavaScript, there are two ways to define a function
+    - Function Declaration       
+        - They are hoisted = implicitly raised to the top of the code base at run-time
+        - They can be called even BEFORE its own declaration
+
+    - Function Expression
+        - They are NOT hoisted
+        - They can NOT be called BEFORE its own expression
+
+
+- In JavaScript, classes are also defined as
+    - Class Declaration
+        - Simplier and cleaner
+
+    - Class Expression
+        - NOT commonly used
+
+    - Both are NOT hoisted like functions
+        - Referencing a class to create an object PRIOR to its declaration or expression
+        - Triggers an "Uncaught ReferenceError"
+        
