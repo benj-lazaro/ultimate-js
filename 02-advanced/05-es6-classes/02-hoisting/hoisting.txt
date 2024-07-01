@@ -10,7 +10,7 @@ Hoisting
         - They can NOT be called BEFORE its own expression
 
 
-- In JavaScript, classes are also defined as
+- In JavaScript, there are two ways to define a class
     - Class Declaration
         - Simplier and cleaner
 
