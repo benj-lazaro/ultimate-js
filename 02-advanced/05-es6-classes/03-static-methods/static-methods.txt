@@ -1,0 +1,26 @@
+Static Methods
+--------------
+- In classical OOP languages, there are two (2) types of methods
+    - Instance Methods
+        - Available on an instance of a class (i.e. object)
+
+    - Static Methods
+        - Available on the class itself
+            - They are NOT available to the instance of the class (i.e. object)
+        
+        - They are used to create utility functions that are NOT tied to a particular object
+            - Takes an input and returns something
+
+
+- To define a Static Method
+    - Use the "static" keyword
+    - Followed by the name of the method
+            
+
+- To access a Static Method
+    - NO need to create an instance of a class    
+    - Use the dot notation / syntax
+        - Class name
+        - Static method name
+
+        <class_name>.<static_method_name>();
