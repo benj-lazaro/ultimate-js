@@ -1,0 +1,31 @@
+The "this" Keyword
+------------------
+- The value of "this" depends on how a method is being executed
+    - Using the Method Call
+        - The value of "this" points to the associated object
+        - This is due to calling a method on an object
+
+    - Using the Function Call   
+        - Storing the reference of an object's method in a constant or variable
+            - Then calling it as a stand-alone function
+
+        - The value of "this" points to the global "window" object in JavaScript
+            - Or "global" in Nodejs
+    
+
+- The behavior of "this" keyword also changes when in "Strict Mode"
+    - To enable "use strict"
+
+    - Calling an object's method as a stand-alone function
+        - The "this" will have the value of "undefined"
+        - Instead of pointing to the global "window" object
+
+    - This to prevent from accidentally modifying the global "window" object
+        - As this is considered BAD pratice
+
+
+- Inside a JavaScript ES6 class
+    - The value of "this" points to "undefined"
+
+    - By default, the body of a JavaScript class are executed in "Strict Mode"
+        - This to prevent from accidentally modifying the global "window" object
