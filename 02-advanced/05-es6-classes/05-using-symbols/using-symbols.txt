@@ -1,0 +1,32 @@
+Private Members Using Symbols
+-----------------------------
+- Abstraction is one of the core principles of OOP
+    - It hides the details and complexity
+        - Showing ONLY the essential parts of an object
+
+    - To hide certain members of an object
+        - So they will NOT be ACCESSIBLE from the outside
+        
+
+- To implement Abstraction
+    - Use private properties and methods in an object
+
+
+- To implement abstraction on an ES6 class
+    - Use ES6 Symbols
+        - It is a primitive type and returns a unique identifier
+            - Use the unique identifier for naming the private property and/or method of an object
+        
+        - To generate a Symbol value
+            - Use the function Symbol() to returns a unique identifier
+            - Every time Symbol() is called a unique identifier is returned
+
+        - Save the returned unique identifier to their corresponding constant variable
+            - Constant variable (by convention) is PREFIXED with an underscore character
+        
+        - Use computed property name convention (i.e. [ ]) within the ES6 class
+            - Insert the constant name within the pair of [ ]
+            
+        - The property and/or method names will NOT be visible when viewed
+            - Each will be replaced with "Symbol()" 
+    
