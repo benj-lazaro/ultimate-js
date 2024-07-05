@@ -1,31 +1,28 @@
 // Private Members Using Symbols Demo
 
-// Generate unique identifiers
+// Generate symbol values
 const _radius = Symbol();
 const _draw = Symbol();
 
 class Circle {
   constructor(radius) {
     // Instance Members
-    // Private property using computed property name
+    // Use the bracket notation along with the constant to declare the private property
     this[_radius] = radius;
   }
 
   // Prototype Members
-  // Private method using computed property name
+  // Use the bracket notation along with the constant to declare the private method
   [_draw]() {
     console.log("Drawing the circle...");
   }
 }
 
-// Instantiating an object from a class
+// Private members returns a "Symbol()" value instead of their name
 const circle = new Circle(10);
-
-// Both private property & method names are NOT visible from the outside
 console.log(circle);
 
-// Accessing private property
+// Both private members are accessible from the outside of the object
+// BUT their names or "interface" remain hidden behind "Symbol()"
 console.log(circle[_radius]);
-
-// Accessing private method
 circle[_draw]();

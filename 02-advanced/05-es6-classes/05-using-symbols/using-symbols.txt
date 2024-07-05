@@ -1,32 +1,32 @@
 Private Members Using Symbols
 -----------------------------
-- Abstraction is one of the core principles of OOP
-    - It hides the details and complexity
-        - Showing ONLY the essential parts of an object
+- Abstraction is one of the core principles of Object Oriented Programming (OOP)
+    - It means hiding the details & complexity, showing ONLY the essential parts
 
-    - To hide certain members of an object
-        - So they will NOT be ACCESSIBLE from the outside
-        
-
-- To implement Abstraction
-    - Use private properties and methods in an object
+    - To implement, use private properties and methods in an object
+        - To hide certain members of an object
+        - Make them INACCESSIBLE from the outside
 
 
-- To implement abstraction on an ES6 class
-    - Use ES6 Symbols
-        - It is a primitive type and returns a unique identifier
-            - Use the unique identifier for naming the private property and/or method of an object
-        
-        - To generate a Symbol value
-            - Use the function Symbol() to returns a unique identifier
-            - Every time Symbol() is called a unique identifier is returned
+- To use ES6 symbols implement abstraction
+    - ES6 symbol is a primitive data type
+        - It is essentially a unique identifier
 
-        - Save the returned unique identifier to their corresponding constant variable
-            - Constant variable (by convention) is PREFIXED with an underscore character
-        
-        - Use computed property name convention (i.e. [ ]) within the ES6 class
-            - Insert the constant name within the pair of [ ]
-            
-        - The property and/or method names will NOT be visible when viewed
-            - Each will be replaced with "Symbol()" 
-    
+    - The function Symbol() generates a symbol value
+        - Everytime this function is called, a new unique identifier is generated
+        - This is NOT a constructor function
+
+    - Store symbol value to a constant PREFIXED with an underscore character
+        - Perform this PRIOR the declaration of an ES6 class
+
+    - Inside the ES6 class, use the computed property names along with the defined constant(s)
+        - To define as identifiers for the private members (properties & methods) of the class
+
+
+- To access or use a private members (property & method) from the outside, respectively
+    - Use the computed name property name convention
+    - Insert the name of the declared constant in-between the pair of [ ]
+
+
+- Viewing the private members of an object
+    - Returns the value "Symbol()" instead of the unique identifier stored in the constant(s)
