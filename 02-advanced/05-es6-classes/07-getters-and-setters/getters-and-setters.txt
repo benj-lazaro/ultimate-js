@@ -1,0 +1,36 @@
+Getters and Setters
+--------------------
+- To implement a getter in an ES6 class
+    - Define a new prototype member method
+    - Use the keyword "get"
+    - Followed by the name of the private property to read from
+    - Ends with a ()
+
+    - Inside the method
+        - Use the "return" keyword
+        - The name of the private property (PREFIXED with an underscore)
+        - Followed by a .get() method
+        - Passing "this" as argument value
+
+    - To execute the getter
+        - Treat it like accessing a public property 
+        - Instead that of a method (i.e. dropping the pair of "()" at the end of the statment)
+
+
+- To define a setter in an ES6 class
+    - Define a new prototype member method
+    - Use the keyword "set"
+    - Followed by the name of the private property to update its assigned value
+    - Ends with a () with the parameter variable inside that will hold the new value
+
+    - Inside the method
+        - Perform a validation on the argument value reiceved
+        
+        - The name of the private property (PREFIXED with an underscore)
+        - Followed by a .set() method
+        - Passing "this" and the parameter variable as argument values
+
+    - To execute the setter
+        - Treat it like assigning a new value to a public property
+        - Instead that of a method (i.e. dropping the pair of "()" at the end of the statment)
+
