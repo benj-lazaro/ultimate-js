@@ -1,0 +1,41 @@
+Private Members Using WeakMaps
+------------------------------
+- Use WeakMaps to implement private members in an object
+    - A WeakMap is essentially a dictionary where
+        - Keys are objects
+        - Values could be anything
+
+        - The keys are "weak" because if there are NO references to the keys
+            - They will be garbage collected
+
+    - Use constructor function WeakMap() to create a new WeakMap Values
+        - Assign the value to a constant with a PREFIXED underscore character
+        - This will serve as an identifier to the private property / method of the object
+    
+
+- To define a private property
+    - Use the .set() method on the intended constant with a PREFIXED underscore character
+    - Pass the argument values
+        - 1st argument  = "this"
+        - 2nd argument  = parameter variable of the class' constructor function
+
+
+- To define a private method
+    - Use the .set() method on the intended constant with a PREFIXED underscore character
+    - Pass the argument values
+        - 1st argument  = "this"
+        - 2nd argument  = body of the private method using the "function" keyword
+        
+
+- To access a private property
+    - Within the public method defined within the ES6 class
+    - Use the .get() method on the constant with a PREFIXED underscore character
+    - Pass the argument value "this" 
+    - Returns the value assigned to the private property
+
+
+- To access a private method
+    - Within the public method defined within the ES6 class
+    - Use the .get() method on the constant with a PREFIXED underscore character
+    - Pass the argument value "this" 
+    - Add () to execute the returned function body retrieved from the private method
