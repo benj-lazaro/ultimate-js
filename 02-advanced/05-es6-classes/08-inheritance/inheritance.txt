@@ -1,0 +1,25 @@
+Inheritance
+-----------
+- To implement inheritance in ES6 class
+    - Declare the parent class
+
+    - Declare the child class
+        
+    - Use the keyword "extends"
+        - After the child class name
+        - Before the parent class name
+        
+        - In order to inherit the properties and/or methods of the parent class
+            - NO need to reset the prototype
+            - NO need to reset the constructor
+
+
+- If both the parent and child class have their respective constructor functions
+    - It triggers a "ReferenceError: Must call super constructor in derived class before accessing 'this'..."
+
+    - Inside the child class's constructor function
+        - Use the "super" keyword to reference the parent object
+        - Call it like a function (i.e. "super()")
+        - Pass the required argument value(s)
+
+        - Add instance members of the child class next
