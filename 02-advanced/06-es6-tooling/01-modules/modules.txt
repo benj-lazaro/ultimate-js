@@ -1,0 +1,36 @@
+Modules
+-------
+- Splitting JavaScript code into multiple files
+    - Instead of one huge codebase
+    - Each of these files is referred as a module
+
+
+- Advantages of using modules
+    - Maintainability
+        - Ease of maintaing a codebase organized into modules
+    
+    - Re-use
+        - Re-use of modules in different parts of an application as well as in different applications
+        
+    - Abstracts code
+        - Hides some of the application's complexity in a module
+        - Expose only the essentials
+
+
+- Brief history of modules in JavaScript
+    - In ES5, it did NOT have the concept of modules
+        - The community introduced new syntaxes to define modules known as "module formats"
+        
+        - Asynchronous Module Definition (AMD)
+            - Primarily used for browser applications
+            - Currently used for maintaining legacy applications
+
+        - CommonJS
+            - Used in Node.js
+
+        - Universal Module Definition (UMD)
+            - Used on both browser and Node.js applications
+            - Currently used for maintaining legacy applications
+
+    - As of ES6, natively supports a "module format"
+
