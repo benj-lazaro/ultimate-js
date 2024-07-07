@@ -1,0 +1,24 @@
+Exercise
+--------
+- Implement a stack data structure using ES6 classes
+    - It has two (2) essential operations (methods)
+        - push  = add an object into the stack
+        - pop   = remove an object from the stack
+
+
+- The class Stack
+    - It has an instance member
+        - count = keeps track on the number of items / objects in the stack
+
+
+    - It has prototype members
+        - peek()    = similar to pop, returns the object on top of the stack but does NOT removes it
+        - pop()     = removes an object from top of the stack
+        - push()    = add an object on top of the stack
+
+        - Attempt to use pop() on an empty stack
+            - Throws an error "Error: Stack is empty"
+
+        - Attempt to use peek() on an empty stack
+            - Throws an error "Error: Stack is empty"
+    
