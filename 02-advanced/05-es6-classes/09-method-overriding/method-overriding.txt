@@ -1,0 +1,30 @@
+Method Overriding
+-----------------
+- It is when a method in the parent (or base) class
+    - Want to change its implementation in the child (or direct / derived) class 
+
+
+- To override a parent's method in the child class
+    - Use the same name as that of the parent's method
+    - Implement a different version
+    - Save changes
+    
+    - This works due to prototypical inheritance
+        - JavaScript Engine looks up within the child class first
+        - If the corresponding method is found, it is executed
+
+        - Otherwise, it moves up to the parent class
+        - If the corresponding method is found, it is executed
+
+        - Otherwise, moves up the prototypical inheritance path
+        - Until it reaches the root object
+
+
+- To override and reuse a parent's method in the child class
+    - Use the same name as that of the parent's method
+    - Inside the method
+        - Use the "super" keyword
+        - Followed by the name of the parent's method (Use dot notation)
+        
+    - Implement addtiional code changes
+    - Save changes
