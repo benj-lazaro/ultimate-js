@@ -1,0 +1,46 @@
+Babel
+-----
+- Demonstrates how to install and use Babel
+    - Babel requires Nodejs and npm (Node Package Manager) to be installed first
+
+
+- To install:
+    - Create the corresponding project folder
+
+    - Using npm, initialize a Node project inside the folder
+
+        npm init --yes
+
+        - Creates a file named "package.json"
+
+    - Install Babel
+        - Three packages are required; for this demo, specific versions are given
+
+        npm i babel-cli@6.26.0 babel-core@6.26.0 babel-preset-env@1.6.1 --save-dev
+
+        - Description of each package and flag are as follows
+            - babel-cli         = Babel's CLI tool
+            - bable-core        = Babel's core (contains the logic for transpiling ES6 code)
+            - bable-preset-env  = Handles corresponding plug-ins for every ES6 feature
+
+            - --save-dev        = Flag that install packages as development dependencies
+                                = They will NOT be included on production
+
+        
+- To use:
+    - Use a text editor and open "package.json" file
+
+    - On the "scripts" line, remove the line
+        
+        "test": "echo \"Error: no test specified\" && exit 1"
+
+    - Replace it with:
+
+        "bable": "babel --presets env app.js -o build/index.js"
+
+        - NOTE: Make sure that the directory "build" exists
+            - This directory will store the translated ES5 code (running on 'strict mode')
+
+    - Save changes and run the CLI command
+    
+        npm run babel
