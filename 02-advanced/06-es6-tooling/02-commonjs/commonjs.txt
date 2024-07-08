@@ -1,0 +1,32 @@
+CommonJS Modules
+----------------
+- Modulize a JavaScript codebase using CommonJS
+    - This is the module format used in Nodejs
+
+    - NOTE: Use ES6 modules for front-end web development
+        - Modulizing a JavaScript codebase for the browser
+
+    - By default, everything define inside a module is considered to be private
+        - It is NOT accessible to the outside unless it is explicitly exported
+
+
+- Basic rule of thumb about modularity
+    - Things that are highly related should go together
+        - In software engineering, this is referred to as Cohesion
+
+
+- To export a module in Nodejs
+    - On the module codebase, the last line of code should be:
+
+    module.exports = <class_name>; // Returns the class
+
+    OR
+
+    module.exports.<object_name_1> = <class_name>;
+    ...
+    module.exports.<object_name_n> = <class_name>;
+
+
+- To import a module into the main codebase
+
+    const <constant> = require("<relative_path_name>/<module_name_w/o_the_extension_name>");
