@@ -1,0 +1,23 @@
+ES6 Tooling
+-----------
+- The following tools are ONLY RELEVANT for developing browser applications
+    - Transpiler
+        - It is a combination of a translator and a compiler
+
+        - It translates ES6 JavaScript code into its ES5 version
+            - ES5 JavaScript code is understood by ALL browsers
+        
+        - Babel is a popular Transpiler
+            - Website (https://babeljs.io/)
+
+
+    - Bundler
+        - It combines ALL JavaScript files into a SINGLE file (i.e. bundle)
+
+        - It minifies the bundle
+            - Gets rid of comments and whitespaces
+            - Uglifies the code (shorten the name of identifiers, classes, functions & more)
+            - Reduces the overall file size of the bundle
+
+        - Webpack is a popular bundler
+            - Website (https://webpack.js.org/)
