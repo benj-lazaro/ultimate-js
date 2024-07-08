@@ -1,0 +1,29 @@
+ES6 Modules
+-----------
+- To export a module using ES6 Module Format
+    - Use the "export" keyword prior to the name of the class to be exported
+
+    - The "export" keyword is used to export one or more objects
+
+
+- To import the module on the main codebase
+    - Use the keyword "import"
+        - To "import" one or more objects from the modules
+
+    - Implement using the following statement
+
+    import {<name_of_exported_class>} from "<relative_path_name>/<module_name_w/o_the_extension>"
+
+    - NOTE: A "SyntaxError: Cannot use import statement outisde a module" is expected
+        - Using Webpack will address this issue
+
+
+- A tentative workaround for the "SyntaxError" solely for demo purposes (NOT production) is as follows:
+    - On the <script> tag of the index.html file
+        - Add the HTML attribute "type"
+            - Assign the value of "module"
+
+    - On the "import" statement of the app.js file
+        - Include the target module's filename extension (i.e. ".js")
+
+    - Reload the index.html file
