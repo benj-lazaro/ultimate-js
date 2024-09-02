@@ -1,9 +1,12 @@
 Setting Up the Development Environment
 --------------------------------------
-- Install Visual Studio Code and Node.js
-    - Visual Studio Code will be used for writing JavaScript code
-        - Install extension
-            - Live Server (Ritwick Day)
-    
-    - Node.js will be used for downloading & installing 3rd-party libraries
-    
+- Install Visual Studio Code
+    - This functions as the code editor
+
+
+- Install the recommended Visual Studio Code Extension
+    - Install "Live Server" by Ritwick Day
+
+
+- Install Node.js
+    - This downloads and installs 3rd-party libraries

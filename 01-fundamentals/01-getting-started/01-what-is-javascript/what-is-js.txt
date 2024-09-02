@@ -1,41 +1,36 @@
 What is JavaScript
 ------------------
-- Currently, one of the most popular & widely used programming languages in the world
-
-    - It is used to build
+- It is one of the most popular and widely-used programming languages in the world
+    - Used to build
         - Interactive web pages
-        - Full-brown web or mobile applications
-        - Real-time networking apps e.g. chat & video services
+        - Full-blown web and/or mobile applications
+        - Real-time networking apps (e.g. chat, video services)
         - Command-line tools
         - Games
 
-    - It runs on
-        - The browser c/o JavaScript engine
-            - Spidermonkey (Firefox)
-            - V8 (Chrome)
-
-        - Outside the browser c/o Node
-            - Node is a C++ program that includes Google's V8 engine
-
-    - ECMAScript is just a specification
-        - JavaScript is a programming language that confirms to this specification
+    - It runs on the browser c/o a JavaScript Engine
+        - Chrome    = V8
+        - Firefox   = Spidermonkey
         
-        - ECMA is responsible for defining the standards
-            - They are actively taking care of said specification
+    - It runs outsite the browser c/o Node
+        - Node is a C++ program that includes Google browser's V8 JavaScript Engine
 
-        - ECMAScript v1 was released in 1997
-            - Since 2015, ECMA has been working on annual releases of a new specification
-            
-            - They released ECMAScript 2015 a.k.a ECMAScript v6 (ES6)
-                - This specification defined many features for JavaScript
-
-
-- Every browser has a JavaScript engine
-    - Launch Chrome browser
     
-    - Access the Developer Tools (CTRL + SHIFT + I)
-        - Alternatively right-click on the browser window
-        - Select menu context "Inspect"
+- ECMAScript is simply a specification
+    - JavaScript is a programming langauge that conforms to this specification
 
-    - Click the Console tab
-    
+    - ECMA (the organization) is responsible for defining the standards
+        - Actively taking care of the specification
+
+
+- ECMAScript v1 was released in 1997
+    - ECMA has been working on annual releases of a new specification since 2015
+
+    - ECMA released the ECMAScript 2015 a.k.a ECMAScript V6 or ES6
+        - This specification defines many features for JavaScript
+
+
+- To access Chrome browser's JavaScript Engine
+    - Access the "Developer Tools"  = CTRL + SHIFT + I
+
+    - Click the "Console" tab

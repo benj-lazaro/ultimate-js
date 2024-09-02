@@ -1,52 +1,55 @@
-JavaScript in Browsers
+JavaScript in Browser
 ----------------------
-- It is best practice to place the <script> tag at the last line within the <body> tag
-    - The <script> element is used to refer to JavaScript code
+- It is considered best practice placing the HTML <script> element
+    - At the last line prior to the closing HTML </body> element
 
-    - Doing so ensures that the element of the HTML document has been rendered
-        - Before parsing & executing the JavaScript code
+    - The <script> element points to an external JavaScript file 
 
-    - Placing the <script> tag at the last line within the <head> tag
-        - Will result to a bad user experience
-
-        - The browser might get busy parsing & executing the JavaScript code
-            - Before rendering the content of the HTML document
-
-        - Almost always JavaScript code needs to "talk" with elements of the HTML document
-            - Important to have them rendered first
-
-        - An exception to this rule are 3rd-party libraries
-            - Some libraries require placing the <script> tag within the <head> tag
-
-        - NOTE: A workaround is to use the HTML attribute "defer"
-            - This informs the browser to parse & execute JavaScript code
-            - ONLY after the HTML document has been parsed
-            - Reference (https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement/defer)
-
-            <script src="app.js" defer></script>
+    - This ensures the that browser have parsed through the entire HTML document 
+        - Rendered the content and HTML elements
+        - Before parsing and executing the JavaScript code
 
 
-- A JavaScript statement 
-    - Is a piece of code that expresses an action to be carried.
-    - It is terminated by a semi-color ";"
+- Placing the <script> element within the <head>
+    - Will LIKELY result to a bad User Experience (UX)
+
+    - The browser MIGHT get busy or stuck parsing and executing the JavaScript code
+        - Before it can render the rest of the content and HTML elements
+
+    - Often the JavaScript code NEEDS to "talk" with HTML elements
+        - It is IMPORTANT to have the HTML elements rendered first
+
+    - An exception to this "rule" are the 3rd-party libraries
+        - Some require placing the <script> element within the <head>
+
+
+- NOTE: A workaround is using the HTML attribute "defer" in the <script> element
+    - This informs the browser to parse and execute the JavaScript code
+    - ONLY AFTER the contents and HTML elements have been rendered
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement/defer)
+
+        <script src="app.js" defer></script>
+
+
+- A JavaScript statement
+    - Is a piece of code that expresses an ACTION to be carried
+    - A statement is terminated by a semi-colon 
 
 
 - A JavaScript comment
-    - This is ignored by the JavaScript engine 
+    - Is a piece of text in the JavaScript code that is IGNORED by the JavaScript Engine
     
-    - It is purely for documenting the code
-        - It explains the why's and how's of a piece of code
+    - It is there purely for documenting the code
+        - Explains the "why" and "how" of a line of code
 
-    - Single-line comment
+    - Two forms of comments
+        - Single-line
 
-        // This is a single line comment
+            // This is a single line comment
 
+        - Multiline
 
-    - Multi-line comment
-
-        /*
-            This is 
-            a multi-line
-            comment
-        
-        */
+            /* This is 
+               a multi-line
+               comment
+            */
