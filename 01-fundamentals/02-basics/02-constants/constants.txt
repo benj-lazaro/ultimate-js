@@ -1,9 +1,7 @@
 Constants
 ---------
-- Basically a variable whose assigned value does NOT change
+- A constant is basically a variable
+    - Whose assigned value can NOT be changed
 
-
-- Best practice:
-    - If there is NO need to re-assign a value, use "const" (constant)
-    - Otheriwse, use "let" (variable)
-
+    - It is considered best practice to use a constant instead of a variable
+        - When the assigned value is NOT expected to be changed 

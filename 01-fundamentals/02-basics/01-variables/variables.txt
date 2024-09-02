@@ -1,29 +1,56 @@
 Variables
 ---------
-- Temporarily stores data in a computer's memory
-    - A variable name's is the name of that location in memory
-    - With the given name, it can read data from the given location in the future
+- A variable is one of the fundamental concepts in JavaScript
+    - It stores data temporarily in the computer's memory
+    
+    - We give the memory location a name (i.e. variable name)
+        - To read current data from said memory location in the future
+        - To store new / updated data to
 
 
-- By default, a declared variable in JavaScript
-    - Has the initial value of "undefined"
+- To declare a variable
+    - Use the keyword "let"
+    - Followed by a name or identifier
+    - Terminate the declaration with a semi-colon 
+
+        let usename;
+
+    - By default, a declared variable has an initial value of "undefined"
+
+    - Optionally, a variable can be initialized with a value
+        - Using the assignment operator "="
+        - Followed by a value (e.g. string, number)
+
+        let userName = "Mosh";
 
 
-- Variable naming convention
-    - It can NOT be a reserved keyword (e.g. let, const)
+- Rules for naming a variable
+    - The name can NOT be a reserved JavaScript keyword
+        - e.g. const, let
 
-    - It should be meaningful and descriptive
-        - It should give a clue on the purpose of the variable
-        - It should convey what kind of data is being stored
+    - The name should be meaningful and descriptive
+        - Gives a clue on the purpose of the variable
+        - Conveys what kind of data it is currently stored
 
-    - It can NOT START with a number
+    - The name can NOT start with a number
 
-    - It can NOT contain whitespace or hypen between words
-        - Use camelcase notation (naming convention)
+    - The name can NOT contain whitespace or hypen between words
+        - Use the camelCase notation
 
-    - It is case-sensitive
+    - The name is case-sensitive
 
-    - Declaring multiple variables can be done in two ways
-        - Declare the variables on single line with each name separated by a comma
-        - Declare each variables on a single line (Modern Best Practice)
-            - Each line terminated with a semi-colon ";"
+
+- Declaring multiple variables can be performed in two (2) ways
+    - Declare multiple variables in a single statement
+        - Each variable separated by a comma
+        - The entire statement is terminated by a semi-colon
+
+        let firstName, lastName, middleName;
+
+    - Declare each variable on their own line of code
+        - Each variable declaration statement is terminated by a semi-colon
+        - This is considered best practice
+
+        let buildingNumber;
+        let unitNumber;
+        let streetName;

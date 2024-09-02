@@ -1,16 +1,27 @@
 Types of Functions
 ------------------
-- The types of a function is to:
-    - Perform a task
+- JavaScript functions are often divided into:
+    - Perfoming a task
+        - Displays content
+        - Terminates the function
 
-    - Calculates (then returns) a value
-        - Utilizes the keyword "return" that
-            - Ends a function's execution
-            - Specifies a value to be returned to the function caller
-            
-            - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
+    - Performs a task and returns a value
+        - Uses the keyword "return" to return a value
+        - Terminates the function
 
 
-- A real-word application is essentially a collection of functions
-    - Working together to provide the functionality of that application
+- The JavaScript keyword "return"
+    - It is a statement that ENDS a function execution
+    - Followed by an expression that specifies a value to be returned to the function caller
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
+
+Syntax:
+
+return;
+return expression;
+
+
+- A real-world JavaScript application is essentially a collection of functions
+    - All working together to provide the functionality of an application
+
     

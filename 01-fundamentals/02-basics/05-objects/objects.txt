@@ -1,22 +1,33 @@
 Objects
 -------
-- It is a reference type of data
+- An object is a Reference Type of data
     - It represents an object in real life
 
 
 - To define an object
-    - It uses an Object Literal Notation (syntax) 
-    - Within the pair of { }
-        - Define the key-value pairs (properies) 
+    - Use the Object Literal Notation syntax
+    - Define the properies (key: value pairs) within the pair of { }
+        - Each property is separate by a comma
+
+    - An object is often assigned to a constant 
+
+        const person = {
+            name: "Mosh",
+            age: 30,
+        };
 
 
-- Two ways of accessing an object property
+- Accessing an object's property can be done in two (2) ways:
     - Dot Notation
-        - The name of the object
+        - The object's name
         - Followed by a "."
-        - Then the name of the property to access
+        - Then the targeted property name
+
+            person.name
 
     - Bracket Notation
-        - The name of the object
-        - Followed by a pair of "[ ]"
-        - Inside the pair is the name of the property to access
+        - The object's name
+        - Followed by a pair of [ ]
+        - Then the targeted property name inside the [ ]
+
+            person[name]
