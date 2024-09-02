@@ -1,8 +1,7 @@
 JavaScript Operators
 --------------------
-- JavaScript operators along with variables & constants
-    - Create expressions
-    - These expressions create logic & algorithms
+- JavaScript operators along with variables and constants create an Expression
+    - An Expression create algorithms and logic
 
 
 - JavaScript have different kinds of operators

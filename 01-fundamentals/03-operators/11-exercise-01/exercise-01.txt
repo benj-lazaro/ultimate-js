@@ -1,0 +1,6 @@
+Exercise 01
+-----------
+- Write the JavaScript code that swaps the initial values assigned between two variables
+    - Variable "a" contains the string value of "red"
+    - variable "b" contains the string value of "blue"
+

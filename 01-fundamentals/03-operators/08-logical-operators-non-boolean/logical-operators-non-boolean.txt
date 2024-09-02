@@ -1,18 +1,24 @@
 Logical Operators with Non-Booleans
 -----------------------------------
-- Logical operators can be used to work with non-boolean values
-    - The result of a logical operations is NOT necessary a boolean value
-    - It depends on the value of the operand
+- Logical operators can be used to work with non-Boolean values
+    - Returned result is NOT necessarily a Boolean value
+    - It depends on the operand's value
 
+    
+- If the operand's value is NOT a Boolean value
+    - The JavaScript Engine intreprets the value as either "truthy" or "falsy"
 
-- If the value of the operand is NOT a boolean value
-    - JavaScript Engine intreprets it as either truthy or falsy value
-        - As soon as the JavaScript Engine encounters a truthy value
-        - The evaluation stops & ignores the rest (i.e. short-circuiting)
-        - Immediately returns the truthy value
+    - As soon as the JavaScript Engine encounters a "truthy" value
+        - Succeeding evaluation stops and ignore the succeeding statements (i.e. short-circuiting)
+        - IMMEDIATELY returns a "truthy" value
 
-    - Falsy values include:
-        - undefined, null, 0, false, "", NaN
+    - A "falsy" value
+        - 0
+        - ""
+        - false
+        - NaN
+        - null
+        - undefined
 
-    - Truthy
-        - Refers to any value that is NOT falsy
+    - A "truthy" value
+        - Any value that is NOT "falsy"

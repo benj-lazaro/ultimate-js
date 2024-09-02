@@ -2,8 +2,7 @@ Bitwise Operators
 -----------------
 - Bitwise operators are often used on the theorhetical side (of Computer Science)
     - NOT much used on a daily basis
-
-    - They are similar to logical operators BUT work on the individual bits of a value
+    - They are similar to Logical operators BUT work on the individual bits of a value
 
 
 - Bitwise AND (&)

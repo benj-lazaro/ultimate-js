@@ -1,17 +1,17 @@
 Ternary Operator
 ----------------
-- It is a conditional operator that takes three (3) operands
-    - A condition followed by a question mark
-    - Then an expression to execute if the condition is truthy
+- The Ternary operator is a conditional operator that takes three (3) operands
+    - A conditional statement is defined first
+    - Followed by a ?
+    - An expression to be executed if the conditional statement is truthy
     - Followed by a :
-    - Then an expression to execute if the condition is falsy
-
-    - This operator is frequently used as an alternative to an if..else statement
+    - An expression to be executed if the conditional statement is falsy
 
     - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator)
-
-
+    
 Syntax:
 
 condition ? exprIfTrue : exprIfFalse
 
+
+- The Ternary operator is often used as an ALTERNATIVE to an if..else statement

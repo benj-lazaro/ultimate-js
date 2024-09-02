@@ -8,20 +8,18 @@ Arithmetic Operators
     - Remainder/Modulus = %
     - Exponentiation    = **
 
-    - These arithmetic operators require two operands to produce a new value
-
+        - NOTE: These operators REQUIRE two (2) operands to produce a new value
 
     - Increment         = ++
     - Decrement         = --
 
-    - Depending on the location of the operator 
-        - Location being before or after the operand
-        - It will behave differently
+        - Location of these operators on an operand produce different behaviors
 
-        - Placing it at the front of the operand
-            - Ii increments / decrements the value of the operand by 1
-            - Before it is used / referenced on
+        - Placing in front of an operand
+            - Increments / decrements the assigned value by 1
+            - BEFORE the value is accessed / referenced 
 
-        - Placing it at the end of the operand
-            - It increments / decrements the value of the operand by 1
-            - After it is used / referenced on
+        - Placing at the back of an operand
+            - Increments / decrements the assigned value by 1
+            - AFTER the value is accessed / referenced
+    

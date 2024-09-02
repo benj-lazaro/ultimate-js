@@ -1,14 +1,13 @@
-Assignment Operators
---------------------
-- It is used to assign a value to a variable or property
-    - The assignment expression itself has a value w/c is the assigned value
+Assignment Operator
+-------------------
+- An Assignment operator is used to assign a value to a variable or an object's property
     - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment)
 
+    - It is an operator that assigns a value located at the right-hand side of the operand
+        - To the operand located on its left-hand side
 
-- It is an operator that assigns a value to its left operand
-    - Based on the value of its right operand
-    - Reference (https://devdoc.net/web/developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators.html)
-
+            let x = 10;
+            x = x + 1;
 
 
 Syntax:
